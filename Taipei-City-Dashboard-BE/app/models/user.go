@@ -35,6 +35,14 @@ type AuthUser struct {
 	// Groups      []Group      `json:"groups" gorm:"many2many:email_user_groups;"`
 }
 
+type Comment struct {
+	ComponentID       string     `json:"component_id" gorm:"column:component_id"`
+	UserID            int        `json:"id" gorm:"column:id;autoincrement"`
+	UserName          string     `json:"name" gorm:"column:name;type:varchar"`
+	Comment           string     `json:"comments" gorm:"column:comments;type:text"`
+	CreatedAt         time.Time  `json:"created_at" gorm:"column:created_at;type:timestamp with timezone;"`
+}
+
 /* ----- Handlers ----- */
 
 func GetAllUsers(pageSize int, pageNum int, sort string, order string, searchByID string, searchByName string) (users []AuthUser, totalUsers int64, resultNum int64, err error) {
@@ -242,4 +250,32 @@ func DeleteUser(userID int) error {
 
 	// Commit the transaction if everything is successful.
 	return tx.Commit().Error
+}
+
+func GetCommentsByID(component_id string) (comments []Comment, totalComments int64, resultNum int64, err error){
+	tempDB := DBManager.Table("comments")
+
+	err = tempDB.Where("component_id = ?", component_id).Find(&comments).Error
+	if err != nil {
+		return comments, 0, 0, err
+	}
+
+	err = tempDB.Count(&resultNum).Error
+	if err != nil {
+		return comments, 0, 0, err
+	}
+
+	err = tempDB.Count(&totalComments).Error
+	if err != nil {
+		return comments, 0, 0, err
+	}
+
+	return comments, totalComments, resultNum, nil
+}
+
+func PostComments(comment Comment) (err error) {
+	if err = DBManager.Create(&comment).Error; err != nil {
+        return err
+    }
+	return nil
 }

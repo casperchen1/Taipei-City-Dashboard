@@ -121,6 +121,7 @@ func GetComponentByID(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{"status": "success", "data": cityComponent})
 }
 
+
 /*
 GetComponentByIDAll retrieves public components from the database by ID.
 GET /api/v1/component/:id/all

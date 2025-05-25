@@ -9,6 +9,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+
 /*
 GetUserInfo returns the user information of the current user
 GET /api/v1/user/me
@@ -55,6 +56,11 @@ type userQuery struct {
 	SearchByID   string `form:"searchbyid"`
 	SearchByName string `form:"searchbyname"`
 }
+
+type commentQuery struct {
+	ComponentID string `form:"component_id"`
+}
+
 
 /*
 GetAllUsers returns all users
@@ -112,4 +118,33 @@ func UpdateUserByID(c *gin.Context) {
 	}
 
 	c.JSON(http.StatusOK, gin.H{"status": "success", "user": user})
+}
+
+func GetCommentsByID(c *gin.Context) {
+	var query commentQuery
+	c.ShouldBindQuery(&query)
+
+	comments, totalComments, resultNum, err := models.GetCommentsByID(query.ComponentID)
+
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "Comments Not Found"})
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{"status": "success", "total": totalComments, "results": resultNum, "data": comments})
+}
+
+func PostComments(c *gin.Context) {
+	var post models.Comment
+
+	if err := c.ShouldBindJSON(&post); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"status": "error", "message": err.Error()})
+        return
+	}
+	
+	if err := models.PostComments(post); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"status": "error", "message": err.Error()})
+        return
+	}
+	c.JSON(http.StatusOK, gin.H{"status": "success", "data": post})
 }
