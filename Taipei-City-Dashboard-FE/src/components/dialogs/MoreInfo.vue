@@ -5,6 +5,9 @@ import DashboardComponent from "../../dashboardComponent/DashboardComponent.vue"
 import { useDialogStore } from "../../store/dialogStore";
 import { useContentStore } from "../../store/contentStore";
 import { useAuthStore } from "../../store/authStore";
+import http from "../../router/axios";
+import { ref } from 'vue';
+
 
 import DialogContainer from "./DialogContainer.vue";
 import HistoryChart from "../charts/HistoryChart.vue";
@@ -28,6 +31,30 @@ function getLinkTag(link, index) {
 		return `資料集 - ${index + 1} (其他)`;
 	}
 }
+
+const commentText = ref("");
+
+async function submitCommentToDB() {
+  if (!commentText.value.trim()) return;
+  console.log(dialogStore.moreInfoContent.name);
+  try {
+    const res = await http.post("http://localhost:8088/api/v1/user/comments", {
+	  //TODO: change the component_id to the cureent one
+      component_id: dialogStore.moreInfoContent.index, //component id
+  	  id: authStore.user.user_id, //user id
+      name: authStore.user.name, //user name
+      comments: commentText.value //comment
+    });
+
+    alert("送出成功！");
+    commentText.value = "";
+  } catch (err) {
+    console.error("送出失敗：", err);
+    alert("發送失敗，請稍後再試");
+  }
+}
+
+
 </script>
 
 <template>
@@ -35,14 +62,14 @@ function getLinkTag(link, index) {
     :dialog="`moreInfo`"
     @on-close="dialogStore.hideAllDialogs"
   >
-    <div class="moreinfo">
+    <div class="moreinfo" style="display: flex; gap: 24px;">
       <DashboardComponent
         :config="dialogStore.moreInfoContent"
         :active-city="dialogStore.moreInfoContent.city"
         :city-tag="contentStore.cityManager.getTagList(dialogStore.moreInfoContent.city)"
         mode="large"
       />
-      <div class="moreinfo-info">
+      <div class="moreinfo-info" style="border-right: 1px solid #555; padding-right: 40px; max-width: 340px;">
         <div class="moreinfo-info-data">
           <h3>
             組件說明（{{
@@ -110,6 +137,7 @@ function getLinkTag(link, index) {
             </div>
           </div>
         </div>
+
         <div class="moreinfo-info-control">
           <button
             v-if="authStore.token"
@@ -139,6 +167,55 @@ function getLinkTag(link, index) {
         <DownloadData />
         <EmbedComponent />
       </div>
+
+	  <!-- ➕ 新增右側評論欄 -->
+		<div
+  		  class="moreinfo-comments"
+  		  style="
+    		width: 100%;
+	    	display: flex;
+			padding: 0 16px 16px 16px;
+    		flex-direction: column;
+			margin-bottom: 12px;
+	    	height: 100%;">
+		
+			
+  <!-- 使用一個 div 包起留言區，讓它吸底 -->
+		<div style="margin-top: auto;">
+			<h4>留言區</h4>
+			<textarea
+			  v-model="commentText" 
+			  placeholder="請輸入文字..."
+			  style="
+				width: 100%;
+				box-sizing: border-box;
+				max-height: 120px;
+				padding: 8px;
+				border: 1px solid #ccc;
+				padding: 8px 12px;
+				border-radius: 4px;
+				overflow-y: auto;
+				resize: none;"
+				></textarea>
+
+			<button 
+				@click="submitCommentToDB"
+				class="button"
+				style="
+					position: absolute;
+					bottom: 16px;
+					right: 8px;
+					padding: 6px 6px;
+					border: none;
+					border-radius: 4px;
+					cursor: pointer;"
+					>
+				<span class="material-icons">send</span>
+			</button>
+
+
+		</div>
+	  </div>
     </div>
   </DialogContainer>
 </template>
@@ -146,23 +223,23 @@ function getLinkTag(link, index) {
 <style scoped lang="scss">
 .moreinfo {
 	height: fit-content;
-	width: 400px;
+	width: 560px;
 	display: grid;
 
 	@media (min-width: 820px) {
-		width: 720px;
+		width: 1008px;
 		height: 410px;
 		grid-template-columns: 3fr 2fr;
 	}
 
 	@media (min-width: 1200px) {
 		height: 440px;
-		width: 820px;
+		width: 1148px;
 	}
 
 	@media (min-width: 2200px) {
 		height: 550px;
-		width: 920px;
+		width: 1288px;
 	}
 
 	&-info {
