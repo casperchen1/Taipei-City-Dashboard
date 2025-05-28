@@ -1,0 +1,365 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4550651, 25.0015401]
+			},
+			"properties": {
+				"name": "新北市立圖書館總館",
+				"address": "板橋區貴興路139號",
+				"tel": "02-2953-7868"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4627713, 25.0122436]
+			},
+			"properties": {
+				"name": "市府閱讀小棧",
+				"address": "板橋區中山路一段161號1樓",
+				"tel": "02-2960-3456轉5170"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4554621, 25.0106531]
+			},
+			"properties": {
+				"name": "板橋分館",
+				"address": "板橋區文化路一段23號",
+				"tel": "02-2966-4347"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4698673, 25.0262947]
+			},
+			"properties": {
+				"name": "板橋江子翠分館",
+				"address": "板橋區莊敬路62號",
+				"tel": "02-2253-4412"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4607241, 25.025085]
+			},
+			"properties": {
+				"name": "板橋四維分館",
+				"address": "板橋區陽明街168號",
+				"tel": "02-2252-1933"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4289948, 24.9902274]
+			},
+			"properties": {
+				"name": "板橋溪北分館",
+				"address": "板橋區篤行路二段133號",
+				"tel": "02-2687-6738"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4574205, 24.9974397]
+			},
+			"properties": {
+				"name": "板橋忠孝分館",
+				"address": "板橋區國慶路149巷21弄16號2、3樓",
+				"tel": "02-2954-2455"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4427412, 25.0004535]
+			},
+			"properties": {
+				"name": "板橋浮洲圖書閱覽室",
+				"address": "板橋區大觀路二段163號2樓",
+				"tel": "02-8275-1617"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4509697, 25.0201702]
+			},
+			"properties": {
+				"name": "板橋國光圖書閱覽室",
+				"address": "板橋區中正路375巷48號3樓",
+				"tel": "02-8965-4829"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4733415, 25.0134601]
+			},
+			"properties": {
+				"name": "板橋民生圖書閱覽室",
+				"address": "板橋區民生路一段30號2樓",
+				"tel": "02-2954-2789"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4696895, 25.0223027]
+			},
+			"properties": {
+				"name": "板橋萬板親子圖書閱覽室",
+				"address": "板橋區萬板路28號",
+				"tel": "02-2257-9737"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3970527, 25.1466808]
+			},
+			"properties": {
+				"name": "八里分館",
+				"address": "八里區舊城里舊城路19號5、6樓",
+				"tel": "02-2610-3385"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4482527, 25.1307306]
+			},
+			"properties": {
+				"name": "八里龍形圖書閱覽室",
+				"address": "八里區龍形二街2之2號4樓",
+				"tel": "02-2618-2649"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4933973, 25.0659552]
+			},
+			"properties": {
+				"name": "三重分館",
+				"address": "三重區自強路一段158號",
+				"tel": "02-2981-4887"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.494675, 25.0745106]
+			},
+			"properties": {
+				"name": "三重崇德分館",
+				"address": "三重區仁孝街62號2樓",
+				"tel": "02-2973-6987"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4833481, 25.071507]
+			},
+			"properties": {
+				"name": "三重培德分館",
+				"address": "三重區忠孝路二段35號",
+				"tel": "02-2984-2179"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4804797, 25.0655784]
+			},
+			"properties": {
+				"name": "三重田中分館",
+				"address": "三重區忠孝路三段40巷51號2樓",
+				"tel": "02-2988-5482"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4891731, 25.0570142]
+			},
+			"properties": {
+				"name": "三重南區分館",
+				"address": "三重區重安街70號3樓",
+				"tel": "02-2976-8729"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4850851, 25.0836448]
+			},
+			"properties": {
+				"name": "三重東區分館",
+				"address": "三重區溪尾街303號",
+				"tel": "02-2857-5270"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4936933, 25.080785]
+			},
+			"properties": {
+				"name": "三重五常分館",
+				"address": "三重區五華街7巷30號2樓",
+				"tel": "02-2989-0559"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.373889, 24.929715]
+			},
+			"properties": {
+				"name": "三峽分館",
+				"address": "三峽區永安街9巷5號2、3樓",
+				"tel": "02-2673-5234"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.3753812, 24.9439916]
+			},
+			"properties": {
+				"name": "三峽北大分館",
+				"address": "三峽區學成路396號3、4樓",
+				"tel": "02-8671-5735"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4404391, 24.974946]
+			},
+			"properties": {
+				"name": "土城分館",
+				"address": "土城區中正路18號7樓",
+				"tel": "02-2260-2952"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4589231, 24.983432]
+			},
+			"properties": {
+				"name": "土城清水圖書閱覽室",
+				"address": "土城區清水路243號2樓",
+				"tel": "02-2265-3293"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4493897, 24.9870494]
+			},
+			"properties": {
+				"name": "土城柑林埤圖書閱覽室",
+				"address": "土城區學享街55號3樓",
+				"tel": "02-2263-7037"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4127188, 24.9580817]
+			},
+			"properties": {
+				"name": "土城親子分館",
+				"address": "土城區中州路28巷30號4樓",
+				"tel": "02-2267-8901"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4092302, 24.9527375]
+			},
+			"properties": {
+				"name": "土城祖田圖書閱覽室",
+				"address": "土城區中央路四段283-1號4、5樓",
+				"tel": "02-2267-4776"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5039262, 24.9895879]
+			},
+			"properties": {
+				"name": "中和分館",
+				"address": "中和區南山路236號6、7樓",
+				"tel": "02-2949-2767"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4970247, 24.9961207]
+			},
+			"properties": {
+				"name": "中和大同圖書閱覽室",
+				"address": "中和區圓通路121巷5號",
+				"tel": "02-2248-3766"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4716811, 25.0032593]
+			},
+			"properties": {
+				"name": "中和員山分館",
+				"address": "中和區民享街37號2樓",
+				"tel": "02-8221-1152"
+			}
+		}
+	]
+}

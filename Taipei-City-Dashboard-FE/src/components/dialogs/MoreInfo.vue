@@ -6,8 +6,7 @@ import { useDialogStore } from "../../store/dialogStore";
 import { useContentStore } from "../../store/contentStore";
 import { useAuthStore } from "../../store/authStore";
 import http from "../../router/axios";
-import { ref } from 'vue';
-
+import { ref } from "vue";
 
 import DialogContainer from "./DialogContainer.vue";
 import HistoryChart from "../charts/HistoryChart.vue";
@@ -35,189 +34,217 @@ function getLinkTag(link, index) {
 const commentText = ref("");
 
 async function submitCommentToDB() {
-  if (!commentText.value.trim()) return;
-  console.log(dialogStore.moreInfoContent.name);
-  try {
-    const res = await http.post("http://localhost:8088/api/v1/user/comments", {
-	  //TODO: change the component_id to the cureent one
-      component_id: dialogStore.moreInfoContent.index, //component id
-  	  id: authStore.user.user_id, //user id
-      name: authStore.user.name, //user name
-      comments: commentText.value //comment
-    });
+	if (!commentText.value.trim()) return;
+	//console.log(dialogStore.moreInfoContent.name);
+	try {
+		const res = await http.post(
+			"http://localhost:8088/api/v1/user/comments",
+			{
+				component_id: dialogStore.moreInfoContent.index, //component id
+				id: authStore.user.user_id, //user id
+				name: authStore.user.name, //user name
+				comments: commentText.value, //comment
+			}
+		);
 
-    alert("送出成功！");
-    commentText.value = "";
-  } catch (err) {
-    console.error("送出失敗：", err);
-    alert("發送失敗，請稍後再試");
-  }
+		alert("送出成功！");
+		commentText.value = "";
+	} catch (err) {
+		console.error("送出失敗：", err);
+		alert("發送失敗，請稍後再試");
+	}
 }
-
-
 </script>
 
 <template>
-  <DialogContainer
-    :dialog="`moreInfo`"
-    @on-close="dialogStore.hideAllDialogs"
-  >
-    <div class="moreinfo" style="display: flex; gap: 24px;">
-      <DashboardComponent
-        :config="dialogStore.moreInfoContent"
-        :active-city="dialogStore.moreInfoContent.city"
-        :city-tag="contentStore.cityManager.getTagList(dialogStore.moreInfoContent.city)"
-        mode="large"
-      />
-      <div class="moreinfo-info" style="border-right: 1px solid #555; padding-right: 40px; max-width: 340px;">
-        <div class="moreinfo-info-data">
-          <h3>
-            組件說明（{{
-              ` ID: ${dialogStore.moreInfoContent.id}｜Index: ${dialogStore.moreInfoContent.index}｜City: ${dialogStore.moreInfoContent.city}`
-            }}）
-          </h3>
-          <p>{{ dialogStore.moreInfoContent.long_desc }}</p>
-          <h3>範例情境</h3>
-          <p>{{ dialogStore.moreInfoContent.use_case }}</p>
-          <div v-if="dialogStore.moreInfoContent.history_config">
-            <h3>歷史軸</h3>
-            <h4>*點擊並拉動以檢視細部區間資料</h4>
-            <HistoryChart
-              :chart_config="
-                dialogStore.moreInfoContent.chart_config
-              "
-              :series="dialogStore.moreInfoContent.history_data"
-              :history_config="
-                dialogStore.moreInfoContent.history_config
-              "
-            />
-          </div>
-          <div v-if="dialogStore.moreInfoContent.links?.length > 0">
-            <h3>相關資料</h3>
-            <div class="moreinfo-info-links">
-              <a
-                v-for="(link, index) in dialogStore
-                  .moreInfoContent.links"
-                :key="link"
-                :href="link"
-                target="_blank"
-                rel="noreferrer"
-              >{{ getLinkTag(link, index) }}</a>
-            </div>
-          </div>
-          <div v-if="dialogStore.moreInfoContent.contributors">
-            <h3>協作者</h3>
-            <div class="moreinfo-info-contributors">
-              <div
-                v-for="contributor in dialogStore
-                  .moreInfoContent.contributors"
-                :key="contributor"
-              >
-                <a
-                  :href="
-                    contentStore.contributors[contributor]
-                      .link
-                  "
-                  target="_blank"
-                  rel="noreferrer"
-                ><img
-                  :src="
-                    contentStore.contributors[
-                      contributor
-                    ].image.includes('http')
-                      ? contentStore.contributors[
-                        contributor
-                      ].image
-                      : `/images/contributors/${contentStore.contributors[contributor].image}`
-                  "
-                  :alt="`協作者-${contentStore.contributors[contributor].user_name}`"
-                >
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="moreinfo-info-control">
-          <button
-            v-if="authStore.token"
-            @click="
-              dialogStore.showReportIssue(
-                dialogStore.moreInfoContent.id,
-                dialogStore.moreInfoContent.index,
-                dialogStore.moreInfoContent.name
-              )
-            "
-          >
-            <span>flag</span>回報
-          </button>
-          <button
-            v-if="
-              dialogStore.moreInfoContent.chart_config
-                .types[0] !== 'MetroChart'
-            "
-            @click="dialogStore.showDialog('downloadData')"
-          >
-            <span>download</span>下載
-          </button>
-          <button @click="dialogStore.showDialog('embedComponent')">
-            <span>code</span>內嵌
-          </button>
-        </div>
-        <DownloadData />
-        <EmbedComponent />
-      </div>
-
-	  <!-- ➕ 新增右側評論欄 -->
-		<div
-  		  class="moreinfo-comments"
-  		  style="
-    		width: 100%;
-	    	display: flex;
-			padding: 0 16px 16px 16px;
-    		flex-direction: column;
-			margin-bottom: 12px;
-	    	height: 100%;">
-		
-			
-  <!-- 使用一個 div 包起留言區，讓它吸底 -->
-		<div style="margin-top: auto;">
-			<h4>留言區</h4>
-			<textarea
-			  v-model="commentText" 
-			  placeholder="請輸入文字..."
-			  style="
-				width: 100%;
-				box-sizing: border-box;
-				max-height: 120px;
-				padding: 8px;
-				border: 1px solid #ccc;
-				padding: 8px 12px;
-				border-radius: 4px;
-				overflow-y: auto;
-				resize: none;"
-				></textarea>
-
-			<button 
-				@click="submitCommentToDB"
-				class="button"
+	<DialogContainer
+		:dialog="`moreInfo`"
+		@on-close="dialogStore.hideAllDialogs"
+	>
+		<div class="moreinfo" style="display: flex; gap: 24px">
+			<DashboardComponent
+				:config="dialogStore.moreInfoContent"
+				:active-city="dialogStore.moreInfoContent.city"
+				:city-tag="
+					contentStore.cityManager.getTagList(
+						dialogStore.moreInfoContent.city
+					)
+				"
+				mode="large"
+			/>
+			<div
+				class="moreinfo-info"
 				style="
-					position: absolute;
-					bottom: 16px;
-					right: 8px;
-					padding: 6px 6px;
-					border: none;
-					border-radius: 4px;
-					cursor: pointer;"
+					border-right: 1px solid #555;
+					padding-right: 40px;
+					max-width: 340px;
+				"
+			>
+				<div class="moreinfo-info-data">
+					<h3>
+						組件說明（{{
+							` ID: ${dialogStore.moreInfoContent.id}｜Index: ${dialogStore.moreInfoContent.index}｜City: ${dialogStore.moreInfoContent.city}`
+						}}）
+					</h3>
+					<p>{{ dialogStore.moreInfoContent.long_desc }}</p>
+					<h3>範例情境</h3>
+					<p>{{ dialogStore.moreInfoContent.use_case }}</p>
+					<div v-if="dialogStore.moreInfoContent.history_config">
+						<h3>歷史軸</h3>
+						<h4>*點擊並拉動以檢視細部區間資料</h4>
+						<HistoryChart
+							:chart_config="
+								dialogStore.moreInfoContent.chart_config
+							"
+							:series="dialogStore.moreInfoContent.history_data"
+							:history_config="
+								dialogStore.moreInfoContent.history_config
+							"
+						/>
+					</div>
+					<div v-if="dialogStore.moreInfoContent.links?.length > 0">
+						<h3>相關資料</h3>
+						<div class="moreinfo-info-links">
+							<a
+								v-for="(link, index) in dialogStore
+									.moreInfoContent.links"
+								:key="link"
+								:href="link"
+								target="_blank"
+								rel="noreferrer"
+								>{{ getLinkTag(link, index) }}</a
+							>
+						</div>
+					</div>
+					<div v-if="dialogStore.moreInfoContent.contributors">
+						<h3>協作者</h3>
+						<div class="moreinfo-info-contributors">
+							<div
+								v-for="contributor in dialogStore
+									.moreInfoContent.contributors"
+								:key="contributor"
+							>
+								<a
+									:href="
+										contentStore.contributors[contributor]
+											.link
+									"
+									target="_blank"
+									rel="noreferrer"
+									><img
+										:src="
+											contentStore.contributors[
+												contributor
+											].image.includes('http')
+												? contentStore.contributors[
+														contributor
+												  ].image
+												: `/images/contributors/${contentStore.contributors[contributor].image}`
+										"
+										:alt="`協作者-${contentStore.contributors[contributor].user_name}`"
+									/>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="moreinfo-info-control">
+					<button
+						v-if="authStore.token"
+						@click="
+							dialogStore.showReportIssue(
+								dialogStore.moreInfoContent.id,
+								dialogStore.moreInfoContent.index,
+								dialogStore.moreInfoContent.name
+							)
+						"
 					>
-				<span class="material-icons">send</span>
-			</button>
+						<span>flag</span>回報
+					</button>
+					<button
+						v-if="
+							dialogStore.moreInfoContent.chart_config
+								.types[0] !== 'MetroChart'
+						"
+						@click="dialogStore.showDialog('downloadData')"
+					>
+						<span>download</span>下載
+					</button>
+					<button @click="dialogStore.showDialog('embedComponent')">
+						<span>code</span>內嵌
+					</button>
+				</div>
+				<DownloadData />
+				<EmbedComponent />
+			</div>
 
+			<!-- ➕ 新增右側評論欄 -->
+			<div
+				class="moreinfo-comments"
+				style="
+					width: 100%;
+					display: flex;
+					padding: 0 16px 16px 16px;
+					flex-direction: column;
+					margin-bottom: 12px;
+					height: 100%;
+				"
+			>
+				<div
+					class="scroll-box"
+					style="
+						position: absolute;
+						width: 30%;
+						height: 70%;
+						bottom: 70px;
+						right: 50px;
+						overflow-y: auto; /* 垂直滾動 */
+						padding: 6px;
+						border: none;
+						background-color: firebrick;
+					"
+				>
+					<p v-for="i in 30" :key="i">這是第 {{ i }} 行</p>
+				</div>
+				<!-- 使用一個 div 包起留言區，讓它吸底 -->
+				<div style="margin-top: auto">
+					<h4>留言區</h4>
+					<textarea
+						v-model="commentText"
+						placeholder="請輸入文字..."
+						style="
+							width: 100%;
+							box-sizing: border-box;
+							max-height: 120px;
+							padding: 8px;
+							border: 1px solid #ccc;
+							padding: 8px 12px;
+							border-radius: 4px;
+							overflow-y: auto;
+							resize: none;
+						"
+					></textarea>
 
+					<button
+						@click="submitCommentToDB"
+						class="button"
+						style="
+							position: absolute;
+							bottom: 16px;
+							right: 8px;
+							padding: 6px 6px;
+							border: none;
+							border-radius: 4px;
+							cursor: pointer;
+						"
+					>
+						<span class="material-icons">send</span>
+					</button>
+				</div>
+			</div>
 		</div>
-	  </div>
-    </div>
-  </DialogContainer>
+	</DialogContainer>
 </template>
 
 <style scoped lang="scss">
