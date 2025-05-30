@@ -64,6 +64,7 @@ func configureUserRoutes() {
 		userRoutes.GET("/:id/viewpoint", controllers.GetViewPointByUserID)
 		userRoutes.DELETE("/:id/viewpoint/:viewpointid", controllers.DeleteViewPoint)
 		userRoutes.POST("/comments", controllers.PostComments)
+		userRoutes.GET("/getData", controllers.GetCommentsByID)
 	}
 	userRoutes.Use(middleware.IsSysAdm())
 	{

@@ -32,6 +32,7 @@ function getLinkTag(link, index) {
 }
 
 const commentText = ref("");
+const MESSAGE = ref("");
 
 async function submitCommentToDB() {
 	if (!commentText.value.trim()) return;
@@ -52,6 +53,20 @@ async function submitCommentToDB() {
 	} catch (err) {
 		console.error("送出失敗：", err);
 		alert("發送失敗，請稍後再試");
+	}
+}
+
+async function getMessageFromDB() {
+	try {
+		const message = await http.get(
+			"http://localhost:8088/api/v1/user/comments?component_id=" +
+				dialogStore.moreInfoContent.index
+		);
+		alert("成功取得資料");
+		MESSAGE.value = message.data.data;
+	} catch (err) {
+		console.error("資料讀取失敗：", err);
+		alert("資料讀取失敗，請稍後再試");
 	}
 }
 </script>
@@ -192,20 +207,28 @@ async function submitCommentToDB() {
 				"
 			>
 				<div
+					@click="getMessageFromDB"
 					class="scroll-box"
 					style="
 						position: absolute;
-						width: 30%;
+						width: 25%;
 						height: 70%;
-						bottom: 70px;
-						right: 50px;
+						bottom: 23%;
+						right: 4%;
 						overflow-y: auto; /* 垂直滾動 */
 						padding: 6px;
 						border: none;
-						background-color: firebrick;
+						background-color: #555;
 					"
 				>
-					<p v-for="i in 30" :key="i">這是第 {{ i }} 行</p>
+					<p
+						:style="{ fontSize: '20px' }"
+						v-for="mes in MESSAGE"
+						:key="mes.id"
+					>
+						{{ mes.name }} : {{ mes.comments }} (at
+						{{ mes.created_at.split("T")[0] }})
+					</p>
 				</div>
 				<!-- 使用一個 div 包起留言區，讓它吸底 -->
 				<div style="margin-top: auto">
