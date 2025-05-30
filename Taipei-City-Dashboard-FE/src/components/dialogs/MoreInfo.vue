@@ -6,7 +6,7 @@ import { useDialogStore } from "../../store/dialogStore";
 import { useContentStore } from "../../store/contentStore";
 import { useAuthStore } from "../../store/authStore";
 import http from "../../router/axios";
-import { ref } from "vue";
+import { ref, watch } from "vue";
 
 import DialogContainer from "./DialogContainer.vue";
 import HistoryChart from "../charts/HistoryChart.vue";
@@ -50,6 +50,7 @@ async function submitCommentToDB() {
 
 		alert("送出成功！");
 		commentText.value = "";
+		getMessageFromDB()
 	} catch (err) {
 		console.error("送出失敗：", err);
 		alert("發送失敗，請稍後再試");
@@ -62,13 +63,22 @@ async function getMessageFromDB() {
 			"http://localhost:8088/api/v1/user/comments?component_id=" +
 				dialogStore.moreInfoContent.index
 		);
-		alert("成功取得資料");
+		//alert("成功取得資料");
 		MESSAGE.value = message.data.data;
 	} catch (err) {
 		console.error("資料讀取失敗：", err);
 		alert("資料讀取失敗，請稍後再試");
 	}
 }
+
+watch(
+  () => dialogStore.dialogs.moreInfo,
+  (val) => {
+    console.log('moreInfo dialog changed:', val);
+    if (val) getMessageFromDB();
+  }
+);
+
 </script>
 
 <template>
@@ -196,75 +206,94 @@ async function getMessageFromDB() {
 
 			<!-- ➕ 新增右側評論欄 -->
 			<div
-				class="moreinfo-comments"
+			class="moreinfo-comments"
+			style="
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				padding: 0 16px 16px;
+				margin-bottom: 12px;
+				height: 100%;
+				position: relative;
+			"
+			>
+			<div
+				@click="getMessageFromDB"
+				class="scroll-box"
 				style="
-					width: 100%;
-					display: flex;
-					padding: 0 16px 16px 16px;
-					flex-direction: column;
-					margin-bottom: 12px;
-					height: 100%;
+				position: absolute;
+				width: 90%;
+				height: 70%;
+				bottom: 25%;
+				right: 4%;
+				overflow-y: auto;
+				padding: 6px;
+				border-radius: 8px;
+				background-color: #2f2f2f;
+				color: #f0f0f0;
+				box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 				"
 			>
-				<div
-					@click="getMessageFromDB"
-					class="scroll-box"
-					style="
-						position: absolute;
-						width: 25%;
-						height: 70%;
-						bottom: 23%;
-						right: 4%;
-						overflow-y: auto; /* 垂直滾動 */
-						padding: 6px;
-						border: none;
-						background-color: #555;
-					"
+				<p
+				v-for="mes in MESSAGE"
+				:key="mes.id"
+				style="
+					font-size: 18px;
+					margin-bottom: 12px;
+					line-height: 1.5;
+				"
 				>
-					<p
-						:style="{ fontSize: '20px' }"
-						v-for="mes in MESSAGE"
-						:key="mes.id"
-					>
-						{{ mes.name }} : {{ mes.comments }} (at
-						{{ mes.created_at.split("T")[0] }})
-					</p>
-				</div>
-				<!-- 使用一個 div 包起留言區，讓它吸底 -->
-				<div style="margin-top: auto">
-					<h4>留言區</h4>
-					<textarea
-						v-model="commentText"
-						placeholder="請輸入文字..."
-						style="
-							width: 100%;
-							box-sizing: border-box;
-							max-height: 120px;
-							padding: 8px;
-							border: 1px solid #ccc;
-							padding: 8px 12px;
-							border-radius: 4px;
-							overflow-y: auto;
-							resize: none;
-						"
-					></textarea>
+				<strong style="color: #ffd166">{{ mes.name }}</strong> :
+				{{ mes.comments }}
+				<span style="font-size: 12px; color: #ccc; margin-left: 6px">
+					({{ mes.created_at.split('T')[0] }})
+				</span>
+				</p>
+			</div>
 
-					<button
-						@click="submitCommentToDB"
-						class="button"
-						style="
-							position: absolute;
-							bottom: 16px;
-							right: 8px;
-							padding: 6px 6px;
-							border: none;
-							border-radius: 4px;
-							cursor: pointer;
-						"
-					>
-						<span class="material-icons">send</span>
-					</button>
-				</div>
+			<!-- 留言區 -->
+			<div style="margin-top: auto; padding-top: 16px">
+				<h4 style="margin-bottom: 8px">留言區</h4>
+				<textarea
+				v-model="commentText"
+				placeholder="請輸入文字..."
+				style="
+					width: 100%;
+					box-sizing: border-box;
+					max-height: 120px;
+					padding: 10px 14px;
+					border: 1px solid #ccc;
+					border-radius: 6px;
+					overflow-y: auto;
+					resize: none;
+					background-color: #fafafa;
+					color: #333;
+					font-size: 14px;
+					transition: border 0.3s;
+				"
+				></textarea>
+
+				<button
+				@click="submitCommentToDB"
+				style="
+					position: absolute;
+					bottom: 16px;
+					right: 8px;
+					padding: 8px 10px;
+					border: none;
+					border-radius: 50%;
+					cursor: pointer;
+					background-color: #ffd166;
+					color: #333;
+					box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+					transition: background-color 0.3s;
+				"
+				onmouseover="this.style.backgroundColor='#ffb347'"
+				onmouseout="this.style.backgroundColor='#ffd166'"
+				>
+				<span class="material-icons" style="font-size: 20px">send</span>
+				</button>
+			</div>
 			</div>
 		</div>
 	</DialogContainer>
