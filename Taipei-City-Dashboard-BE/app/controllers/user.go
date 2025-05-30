@@ -148,3 +148,27 @@ func PostComments(c *gin.Context) {
 	}
 	c.JSON(http.StatusOK, gin.H{"status": "success", "data": post})
 }
+func PostComponentChart(c *gin.Context){
+	var post models.Component_Charts
+	if err := c.ShouldBindJSON(&post); err != nil{
+		c.JSON(http.StatusBadRequest, gin.H{"status": "error", "message": err.Error()})
+		return
+	}
+	if err := models.PostComponentChart(post); err != nil{
+		c.JSON(http.StatusBadRequest, gin.H{"status": "error", "message": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"status": "success", "data": post})
+}
+func PostComponents(c *gin.Context){
+	var post models.Components
+	if err := c.ShouldBindJSON(&post); err != nil{
+		c.JSON(http.StatusBadRequest, gin.H{"status": "error", "message": err.Error()})
+		return
+	}
+	if err := models.PostComponents(post); err != nil{
+		c.JSON(http.StatusBadRequest, gin.H{"status": "error", "message": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"status": "success", "data": post})
+}
