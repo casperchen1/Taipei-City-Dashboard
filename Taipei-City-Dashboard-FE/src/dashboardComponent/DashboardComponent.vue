@@ -10,6 +10,7 @@ import { chartTypes } from "./utilities/chartTypes";
 import ComponentTag from "./components/ComponentTag.vue";
 import TagTooltip from "./components/TagTooltip.vue";
 import DistrictChart from "./components/DistrictChart.vue";
+import DistrictChartHI from "./components/DistrictChartHI.vue";
 import DonutChart from "./components/DonutChart.vue";
 import BarChart from "./components/BarChart.vue";
 import TreemapChart from "./components/TreemapChart.vue";
@@ -31,6 +32,7 @@ import TextUnitChart from "./components/TextUnitChart.vue";
 
 import MapLegendSvg from "./assets/chart/MapLegend.svg";
 import DistrictChartSvg from "./assets/chart/DistrictChart.svg";
+import DistrictChartHISvg from "./assets/chart/DistrictChart.svg";
 import TimelineStackedChartSvg from "./assets/chart/TimelineStackedChart.svg";
 import BarChartSvg from "./assets/chart/BarChart.svg";
 import BarPercentChartSvg from "./assets/chart/BarPercentChart.svg";
@@ -182,6 +184,8 @@ function changeShowTagTooltipState(state) {
 }
 function returnChartComponent(name, svg) {
 	switch (name) {
+	case "DistrictChartHI":
+		return svg ? DistrictChartHISvg : DistrictChartHI;
 	case "DistrictChart":
 		return svg ? DistrictChartSvg : DistrictChart;
 	case "BarChart":
