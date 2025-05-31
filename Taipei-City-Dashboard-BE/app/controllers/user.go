@@ -7,6 +7,7 @@ import (
 	"TaipeiCityDashboardBE/app/models"
 
 	"github.com/gin-gonic/gin"
+
 )
 
 
@@ -145,6 +146,42 @@ func PostComments(c *gin.Context) {
 	if err := models.PostComments(post); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"status": "error", "message": err.Error()})
         return
+	}
+	c.JSON(http.StatusOK, gin.H{"status": "success", "data": post})
+}
+func PostComponentChart(c *gin.Context){
+	var post models.Component_Charts
+	if err := c.ShouldBindJSON(&post); err != nil{
+		c.JSON(http.StatusBadRequest, gin.H{"status": "error", "message": err.Error()})
+		return
+	}
+	if err := models.PostComponentChart(post); err != nil{
+		c.JSON(http.StatusBadRequest, gin.H{"status": "error", "message": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"status": "success", "data": post})
+}
+func PostComponents(c *gin.Context){
+	var post models.Components
+	if err := c.ShouldBindJSON(&post); err != nil{
+		c.JSON(http.StatusBadRequest, gin.H{"status": "error", "message": err.Error()})
+		return
+	}
+	if err := models.PostComponents(post); err != nil{
+		c.JSON(http.StatusBadRequest, gin.H{"status": "error", "message": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"status": "success", "data": post})
+}
+func PostQueryCharts(c *gin.Context){
+	var post models.Query_charts
+	if err := c.ShouldBindJSON(&post); err != nil{
+		c.JSON(http.StatusBadRequest, gin.H{"status": "error", "message": err.Error()})
+		return
+	}
+	if err := models.PostQueryCharts(post); err != nil{
+		c.JSON(http.StatusBadRequest, gin.H{"status": "error", "message": err.Error()})
+		return
 	}
 	c.JSON(http.StatusOK, gin.H{"status": "success", "data": post})
 }
