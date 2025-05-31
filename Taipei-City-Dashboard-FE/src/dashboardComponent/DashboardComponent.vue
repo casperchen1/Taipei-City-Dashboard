@@ -7,6 +7,7 @@ import { getComponentDataTimeframe } from "./utilities/dataTimeframe";
 import { timeTerms } from "./utilities/AllTimes";
 import { chartTypes } from "./utilities/chartTypes";
 
+import RainChart from "./components/RainChart.vue";
 import ComponentTag from "./components/ComponentTag.vue";
 import TagTooltip from "./components/TagTooltip.vue";
 import DistrictChart from "./components/DistrictChart.vue";
@@ -30,6 +31,7 @@ import IconPercentChart from "./components/IconPercentChart.vue";
 import IndicatorChart from "./components/IndicatorChart.vue";
 import TextUnitChart from "./components/TextUnitChart.vue";
 
+import RainChartSvg from "./assets/chart/DistrictChart.svg";
 import MapLegendSvg from "./assets/chart/MapLegend.svg";
 import DistrictChartSvg from "./assets/chart/DistrictChart.svg";
 import DistrictChartHISvg from "./assets/chart/DistrictChart.svg";
@@ -184,6 +186,8 @@ function changeShowTagTooltipState(state) {
 }
 function returnChartComponent(name, svg) {
 	switch (name) {
+	case "RainChart":
+		return svg ? RainChartSvg : RainChart;
 	case "DistrictChartHI":
 		return svg ? DistrictChartHISvg : DistrictChartHI;
 	case "DistrictChart":

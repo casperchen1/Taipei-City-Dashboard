@@ -65,7 +65,7 @@
           </template>
         </div>
         <div v-else>
-          <h3>{{ item.name }}</h3>
+		  <h3>{{ item.name }}</h3>
           <p>{{ popupContent[activeTab]?.properties[item.key] }}</p>
         </div>
       </div>

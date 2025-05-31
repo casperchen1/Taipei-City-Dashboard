@@ -3,6 +3,7 @@ interface chartType {
 }
 
 export const chartTypes: chartType = {
+	RainChart: "雨量圖",
 	DonutChart: "圓餅圖", // V
 	BarChart: "橫向長條圖", // V
 	ColumnChart: "縱向長條圖", // V

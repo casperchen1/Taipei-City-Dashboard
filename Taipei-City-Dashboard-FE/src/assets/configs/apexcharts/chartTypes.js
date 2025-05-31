@@ -1,4 +1,5 @@
 export const chartTypes = {
+	RainChart: "雨量圖",
 	DonutChart: "圓餅圖",
 	BarChart: "橫向長條圖",
 	ColumnChart: "縱向長條圖",
@@ -35,6 +36,7 @@ export const chartsPerDataType = {
 		"MetroChart",
 	],
 	three_d: [
+		"RainChart",
 		"ColumnChart",
 		"BarPercentChart",
 		"RadarChart",
