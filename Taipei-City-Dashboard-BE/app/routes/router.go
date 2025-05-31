@@ -59,6 +59,8 @@ func configureUserRoutes() {
 	userRoutes.POST("/comments", controllers.PostComments)
 	userRoutes.POST("/component_charts",controllers.PostComponentChart)
 	userRoutes.POST("/components",controllers.PostComponents)
+	userRoutes.POST("/query_charts",controllers.PostQueryCharts)
+	//userRoutes.get("/CREATE",models.CreateTable)
 	userRoutes.Use(middleware.IsLoggedIn())
 	{
 		userRoutes.GET("/me", controllers.GetUserInfo)

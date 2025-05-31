@@ -1,0 +1,1153 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5637786, 25.0553748]
+			},
+			"properties": {
+				"id": 1,
+				"高中": "臺北市立西松高級中學",
+				"區域": "松山區",
+				"汽車數": 58,
+				"機車數": 46
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5591078, 25.0496777]
+			},
+			"properties": {
+				"id": 2,
+				"高中": "臺北市立中崙高級中學",
+				"區域": "松山區",
+				"汽車數": 30,
+				"機車數": 15
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5667159, 25.0597793]
+			},
+			"properties": {
+				"id": 3,
+				"高中": "臺北市立民生國民中學",
+				"區域": "松山區",
+				"汽車數": 27,
+				"機車數": 28
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5065366, 25.0395024]
+			},
+			"properties": {
+				"id": 4,
+				"高中": "臺北市立中山國民中學",
+				"區域": "松山區",
+				"汽車數": 0,
+				"機車數": 40
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5441302, 25.0509713]
+			},
+			"properties": {
+				"id": 5,
+				"高中": "臺北市立敦化國民中學",
+				"區域": "松山區",
+				"汽車數": 15,
+				"機車數": 30
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5537, 25.0579]
+			},
+			"properties": {
+				"id": 6,
+				"高中": "臺北市松山區民生國民小學",
+				"區域": "松山區",
+				"汽車數": 25,
+				"機車數": 30
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5788417, 25.0334697]
+			},
+			"properties": {
+				"id": 7,
+				"高中": "臺北市立永春高級中學",
+				"區域": "信義區",
+				"汽車數": 10,
+				"機車數": 20
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5806089, 25.0351228]
+			},
+			"properties": {
+				"id": 8,
+				"高中": "臺北市立松山高級商業家事職業學校",
+				"區域": "信義區",
+				"汽車數": 27,
+				"機車數": 52
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5721029, 25.0398123]
+			},
+			"properties": {
+				"id": 9,
+				"高中": "臺北市立松山高級工農職業學校",
+				"區域": "信義區",
+				"汽車數": 42,
+				"機車數": 5
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5737906, 25.0483189]
+			},
+			"properties": {
+				"id": 10,
+				"高中": "臺北市立永吉國民中學",
+				"區域": "信義區",
+				"汽車數": 23,
+				"機車數": 30
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5854371, 25.0370894]
+			},
+			"properties": {
+				"id": 11,
+				"高中": "臺北市立瑠公國民中學",
+				"區域": "信義區",
+				"汽車數": 30,
+				"機車數": 30
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5677566, 25.0288257]
+			},
+			"properties": {
+				"id": 12,
+				"高中": "臺北市立信義國民中學",
+				"區域": "信義區",
+				"汽車數": 32,
+				"機車數": 69
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.575, 25.0343]
+			},
+			"properties": {
+				"id": 13,
+				"高中": "臺北市信義區永春國民小學",
+				"區域": "信義區",
+				"汽車數": 14,
+				"機車數": 20
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5671, 25.0412]
+			},
+			"properties": {
+				"id": 14,
+				"高中": "臺北市信義區光復國民小學",
+				"區域": "信義區",
+				"汽車數": 20,
+				"機車數": 30
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5774, 25.0363]
+			},
+			"properties": {
+				"id": 15,
+				"高中": "臺北市信義區三興國民小學",
+				"區域": "信義區",
+				"汽車數": 14,
+				"機車數": 20
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5403993, 25.0321029]
+			},
+			"properties": {
+				"id": 16,
+				"高中": "臺北市立大安高級工業職業學校",
+				"區域": "大安區",
+				"汽車數": 124,
+				"機車數": 72
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5436751, 25.030865]
+			},
+			"properties": {
+				"id": 17,
+				"高中": "臺北市立大安國民中學",
+				"區域": "大安區",
+				"汽車數": 35,
+				"機車數": 26
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5501584, 25.0185655]
+			},
+			"properties": {
+				"id": 18,
+				"高中": "臺北市芳和實驗國民中學",
+				"區域": "大安區",
+				"汽車數": 36,
+				"機車數": 65
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5328307, 25.0311309]
+			},
+			"properties": {
+				"id": 19,
+				"高中": "臺北市立金華國民中學",
+				"區域": "大安區",
+				"汽車數": 55,
+				"機車數": 70
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5388404, 25.0111994]
+			},
+			"properties": {
+				"id": 20,
+				"高中": "臺北市民族實驗國民中學",
+				"區域": "大安區",
+				"汽車數": 16,
+				"機車數": 23
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5385, 25.0225]
+			},
+			"properties": {
+				"id": 21,
+				"高中": "臺北市大安區龍安國民小學",
+				"區域": "大安區",
+				"汽車數": 18,
+				"機車數": 10
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5352, 25.0295]
+			},
+			"properties": {
+				"id": 22,
+				"高中": "臺北市大安區幸安國民小學",
+				"區域": "大安區",
+				"汽車數": 19,
+				"機車數": 20
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5405, 25.0285]
+			},
+			"properties": {
+				"id": 23,
+				"高中": "臺北市大安區建安國民小學",
+				"區域": "大安區",
+				"汽車數": 30,
+				"機車數": 0
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5462, 25.0362]
+			},
+			"properties": {
+				"id": 24,
+				"高中": "臺北市大安區仁愛國民小學",
+				"區域": "大安區",
+				"汽車數": 20,
+				"機車數": 20
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5197, 25.0251]
+			},
+			"properties": {
+				"id": 25,
+				"高中": "臺北市大安區古亭國民小學",
+				"區域": "大安區",
+				"汽車數": 29,
+				"機車數": 19
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5371051, 25.0486787]
+			},
+			"properties": {
+				"id": 26,
+				"高中": "臺北市立中山女子高級中學",
+				"區域": "中山區",
+				"汽車數": 15,
+				"機車數": 10
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5326974, 25.0550265]
+			},
+			"properties": {
+				"id": 27,
+				"高中": "臺北市立大同高級中學",
+				"區域": "中山區",
+				"汽車數": 63,
+				"機車數": 50
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5389929, 25.0777831]
+			},
+			"properties": {
+				"id": 28,
+				"高中": "臺北市立北安國民中學",
+				"區域": "中山區",
+				"汽車數": 49,
+				"機車數": 38
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5263386, 25.062038]
+			},
+			"properties": {
+				"id": 29,
+				"高中": "臺北市立新興國民中學",
+				"區域": "中山區",
+				"汽車數": 22,
+				"機車數": 12
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5261, 25.0632]
+			},
+			"properties": {
+				"id": 30,
+				"高中": "臺北市中山區中正國民小學",
+				"區域": "中山區",
+				"汽車數": 22,
+				"機車數": 10
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5127463, 25.0301319]
+			},
+			"properties": {
+				"id": 31,
+				"高中": "臺北市立建國高級中學",
+				"區域": "中正區",
+				"汽車數": 30,
+				"機車數": 30
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5236849, 25.0193808]
+			},
+			"properties": {
+				"id": 32,
+				"高中": "臺北市立螢橋國民中學",
+				"區域": "中正區",
+				"汽車數": 32,
+				"機車數": 15
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5092027, 25.0352063]
+			},
+			"properties": {
+				"id": 33,
+				"高中": "臺北市立南門國民中學",
+				"區域": "中正區",
+				"汽車數": 20,
+				"機車數": 50
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5152934, 25.0374875]
+			},
+			"properties": {
+				"id": 34,
+				"高中": "臺北市立弘道國民中學",
+				"區域": "中正區",
+				"汽車數": 26,
+				"機車數": 40
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5201, 25.0321]
+			},
+			"properties": {
+				"id": 35,
+				"高中": "臺北市中正區螢橋國民小學",
+				"區域": "中正區",
+				"汽車數": 28,
+				"機車數": 30
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5293, 25.0345]
+			},
+			"properties": {
+				"id": 36,
+				"高中": "臺北市中正區東門國民小學",
+				"區域": "中正區",
+				"汽車數": 43,
+				"機車數": 30
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5191668, 25.0756403]
+			},
+			"properties": {
+				"id": 37,
+				"高中": "臺北市立明倫高級中學",
+				"區域": "大同區",
+				"汽車數": 2,
+				"機車數": 0
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.543846, 25.0258166]
+			},
+			"properties": {
+				"id": 38,
+				"高中": "臺北市立成淵高級中學",
+				"區域": "大同區",
+				"汽車數": 6,
+				"機車數": 46
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5082165, 25.051247]
+			},
+			"properties": {
+				"id": 39,
+				"高中": "臺北市立忠孝國民中學",
+				"區域": "大同區",
+				"汽車數": 22,
+				"機車數": 33
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5138696, 25.0637538]
+			},
+			"properties": {
+				"id": 40,
+				"高中": "臺北市立民權國民中學",
+				"區域": "大同區",
+				"汽車數": 20,
+				"機車數": 25
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5140957, 25.0693284]
+			},
+			"properties": {
+				"id": 41,
+				"高中": "臺北市立蘭州國民中學",
+				"區域": "大同區",
+				"汽車數": 18,
+				"機車數": 0
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5180299, 25.0759168]
+			},
+			"properties": {
+				"id": 42,
+				"高中": "臺北市立重慶國民中學",
+				"區域": "大同區",
+				"汽車數": 25,
+				"機車數": 45
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5155, 25.0634]
+			},
+			"properties": {
+				"id": 43,
+				"高中": "臺北市大同區太平國民小學",
+				"區域": "大同區",
+				"汽車數": 8,
+				"機車數": 18
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5113, 25.0602]
+			},
+			"properties": {
+				"id": 44,
+				"高中": "臺北市大同區大同國民小學",
+				"區域": "大同區",
+				"汽車數": 23,
+				"機車數": 15
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5118, 25.0701]
+			},
+			"properties": {
+				"id": 45,
+				"高中": "臺北市大同區大橋國民小學",
+				"區域": "大同區",
+				"汽車數": 24,
+				"機車數": 18
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4945606, 25.0279635]
+			},
+			"properties": {
+				"id": 46,
+				"高中": "臺北市立華江高級中學",
+				"區域": "萬華區",
+				"汽車數": 64,
+				"機車數": 30
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4912045, 25.0308614]
+			},
+			"properties": {
+				"id": 47,
+				"高中": "臺北市立大理高級中學",
+				"區域": "萬華區",
+				"汽車數": 38,
+				"機車數": 50
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.502776, 25.0355486]
+			},
+			"properties": {
+				"id": 48,
+				"高中": "臺北市立龍山國民中學",
+				"區域": "萬華區",
+				"汽車數": 24,
+				"機車數": 35
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5059, 25.0423]
+			},
+			"properties": {
+				"id": 49,
+				"高中": "臺北市萬華區西門國民小學",
+				"區域": "萬華區",
+				"汽車數": 30,
+				"機車數": 20
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.4992, 25.034]
+			},
+			"properties": {
+				"id": 50,
+				"高中": "臺北市萬華區龍山國民小學",
+				"區域": "萬華區",
+				"汽車數": 30,
+				"機車數": 22
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5588384, 25.000544]
+			},
+			"properties": {
+				"id": 51,
+				"高中": "臺北市立萬芳高級中學",
+				"區域": "文山區",
+				"汽車數": 72,
+				"機車數": 91
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5700573, 24.9968686]
+			},
+			"properties": {
+				"id": 52,
+				"高中": "臺北市立木柵高級工業職業學校",
+				"區域": "文山區",
+				"汽車數": 80,
+				"機車數": 0
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5641239, 24.9874175]
+			},
+			"properties": {
+				"id": 53,
+				"高中": "臺北市立木柵國民中學",
+				"區域": "文山區",
+				"汽車數": 30,
+				"機車數": 30
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5754209, 24.9845646]
+			},
+			"properties": {
+				"id": 54,
+				"高中": "臺北市立北政國民中學",
+				"區域": "文山區",
+				"汽車數": 20,
+				"機車數": 10
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5474137, 25.0049283]
+			},
+			"properties": {
+				"id": 55,
+				"高中": "臺北市立興福國民中學",
+				"區域": "文山區",
+				"汽車數": 27,
+				"機車數": 60
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5677, 24.9944]
+			},
+			"properties": {
+				"id": 56,
+				"高中": "臺北市文山區興華國民小學",
+				"區域": "文山區",
+				"汽車數": 14,
+				"機車數": 10
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6071584, 25.0563331]
+			},
+			"properties": {
+				"id": 57,
+				"高中": "臺北市立南港高級工業職業學校",
+				"區域": "南港區",
+				"汽車數": 156,
+				"機車數": 87
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5876777, 25.0449417]
+			},
+			"properties": {
+				"id": 58,
+				"高中": "臺北市立成德國民中學",
+				"區域": "南港區",
+				"汽車數": 41,
+				"機車數": 60
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5779044, 25.085124]
+			},
+			"properties": {
+				"id": 59,
+				"高中": "臺北市立麗山高級中學",
+				"區域": "內湖區",
+				"汽車數": 80,
+				"機車數": 60
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5750963, 25.0792292]
+			},
+			"properties": {
+				"id": 60,
+				"高中": "臺北市立內湖高級工業職業學校",
+				"區域": "內湖區",
+				"汽車數": 44,
+				"機車數": 60
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5861146, 25.0770398]
+			},
+			"properties": {
+				"id": 61,
+				"高中": "臺北市立內湖國民中學",
+				"區域": "內湖區",
+				"汽車數": 65,
+				"機車數": 30
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5733926, 25.0821781]
+			},
+			"properties": {
+				"id": 62,
+				"高中": "臺北市立麗山國民中學",
+				"區域": "內湖區",
+				"汽車數": 50,
+				"機車數": 52
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5838207, 25.0691658]
+			},
+			"properties": {
+				"id": 63,
+				"高中": "臺北市立三民國民中學",
+				"區域": "內湖區",
+				"汽車數": 60,
+				"機車數": 40
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5635026, 25.0854675]
+			},
+			"properties": {
+				"id": 64,
+				"高中": "臺北市立西湖國民中學",
+				"區域": "內湖區",
+				"汽車數": 28,
+				"機車數": 35
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5544, 25.0834]
+			},
+			"properties": {
+				"id": 65,
+				"高中": "臺北市內湖區碧湖國民小學",
+				"區域": "內湖區",
+				"汽車數": 33,
+				"機車數": 30
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.6102, 25.0692]
+			},
+			"properties": {
+				"id": 66,
+				"高中": "臺北市內湖區康寧國民小學",
+				"區域": "內湖區",
+				"汽車數": 15,
+				"機車數": 20
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.514556, 25.0918443]
+			},
+			"properties": {
+				"id": 67,
+				"高中": "臺北市立陽明高級中學",
+				"區域": "士林區",
+				"汽車數": 55,
+				"機車數": 60
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5163483, 25.0943198]
+			},
+			"properties": {
+				"id": 68,
+				"高中": "臺北市立士林高級商業職業學校",
+				"區域": "士林區",
+				"汽車數": 49,
+				"機車數": 96
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5199782, 25.0943721]
+			},
+			"properties": {
+				"id": 69,
+				"高中": "臺北市立士林國民中學",
+				"區域": "士林區",
+				"汽車數": 17,
+				"機車數": 10
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5292441, 25.1105896]
+			},
+			"properties": {
+				"id": 70,
+				"高中": "臺北市立蘭雅國民中學",
+				"區域": "士林區",
+				"汽車數": 30,
+				"機車數": 35
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5555851, 25.1036391]
+			},
+			"properties": {
+				"id": 71,
+				"高中": "臺北市立至善國民中學",
+				"區域": "士林區",
+				"汽車數": 22,
+				"機車數": 20
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.546345, 25.1308722]
+			},
+			"properties": {
+				"id": 72,
+				"高中": "臺北市立格致國民中學",
+				"區域": "士林區",
+				"汽車數": 19,
+				"機車數": 10
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5356176, 25.1180527]
+			},
+			"properties": {
+				"id": 73,
+				"高中": "臺北市立天母國民中學",
+				"區域": "士林區",
+				"汽車數": 43,
+				"機車數": 0
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5056, 25.0924]
+			},
+			"properties": {
+				"id": 74,
+				"高中": "臺北市士林區社子國民小學",
+				"區域": "士林區",
+				"汽車數": 35,
+				"機車數": 30
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5159, 25.0932]
+			},
+			"properties": {
+				"id": 75,
+				"高中": "臺北市士林區富安國民小學",
+				"區域": "士林區",
+				"汽車數": 12,
+				"機車數": 12
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5166212, 25.1041727]
+			},
+			"properties": {
+				"id": 76,
+				"高中": "臺北市立中正高級中學",
+				"區域": "北投區",
+				"汽車數": 80,
+				"機車數": 72
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5063989, 25.1382345]
+			},
+			"properties": {
+				"id": 77,
+				"高中": "臺北市立新民國民中學",
+				"區域": "北投區",
+				"汽車數": 30,
+				"機車數": 50
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5164306, 25.1079018]
+			},
+			"properties": {
+				"id": 78,
+				"高中": "臺北市立明德國民中學",
+				"區域": "北投區",
+				"汽車數": 4,
+				"機車數": 5
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.477338, 25.1347115]
+			},
+			"properties": {
+				"id": 79,
+				"高中": "臺北市立桃源國民中學",
+				"區域": "北投區",
+				"汽車數": 43,
+				"機車數": 15
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5141674, 25.1149627]
+			},
+			"properties": {
+				"id": 80,
+				"高中": "臺北市立石牌國民中學",
+				"區域": "北投區",
+				"汽車數": 41,
+				"機車數": 40
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.515, 25.116]
+			},
+			"properties": {
+				"id": 81,
+				"高中": "臺北市北投區石牌國民小學",
+				"區域": "北投區",
+				"汽車數": 23,
+				"機車數": 30
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [121.5065, 25.1392]
+			},
+			"properties": {
+				"id": 82,
+				"高中": "臺北市北投區桃源國民小學",
+				"區域": "北投區",
+				"汽車數": 18,
+				"機車數": 19
+			}
+		}
+	]
+}

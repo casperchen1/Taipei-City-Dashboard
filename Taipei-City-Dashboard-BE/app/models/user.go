@@ -10,6 +10,7 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/lib/pq"
+	//"os/exec"
 )
 
 /* ----- Models ----- */
@@ -58,9 +59,9 @@ type Components struct{
 
 type Query_charts struct{
 	INDEX			  string		`json:"INDEX" gorm:"column:index"`
-	HISTORY_CONFIG    json			`json:"HISTORY_CONFIG" gorm:"column:history_config"`
-	MAP_CONFIG_IDS	  []int			`json:"MAP_CONFIG_IDS" gorm:"column:map_config_ids"`
-	MAP_FILTER		  json			`json:"MAP_FILTER" gorm:"column:map_filter"`
+	//HISTORY_CONFIG    json			`json:"HISTORY_CONFIG" gorm:"column:history_config"`
+	//MAP_CONFIG_IDS	  []int			`json:"MAP_CONFIG_IDS" gorm:"column:map_config_ids"`
+	//MAP_FILTER		  json			`json:"MAP_FILTER" gorm:"column:map_filter"`
 	TIME_FROM		  string		`json:"TIME_FROM" gorm:"column:time_from"`
 	TIME_TO			  string		`json:"TIME_TO" gorm:"column:time_to"`
 	UPDATE_FREQ		  int			`json:"UPDATE_FREQ" gorm:"column:update_freq"`
@@ -69,12 +70,12 @@ type Query_charts struct{
 	SHORT_DESC		  string		`json:"SHORT_DESC" gorm:"column:short_desc"`
 	LONG_DESC		  string		`json:"LONG_DESC" gorm:"column:long_desc"`
 	USE_CASE		  string		`json:"USE_CASE" gorm:"column:use_case"`
-	LINK			  pq.StringArray`json:"LINK" gorm:"column:link"`
-	CONTRIBUTOR		  pq.StringArray`json:"CONTRIBUTOR" gorm:"column:contributor"`
+	LINK			  pq.StringArray`json:"LINK" gorm:"column:links;type:text[]"`
+	CONTRIBUTOR		  pq.StringArray`json:"CONTRIBUTOR" gorm:"column:contributors;type:text[]"`
 	CREATED_AT		  string		`json:"CREATED_AT" gorm:"column:created_at"`
 	UPDATED_AT		  string		`json:"UPDATED_AT" gorm:"column:updated_at"`
 	QUERY_TYPE		  string		`json:"QUERY_TYPE" gorm:"column:query_type"`
-	QUERY_CHART	  	  string		`json:"QUERY_CHART" gorm:"column:quert_chart"`
+	QUERY_CHART	  	  string		`json:"QUERY_CHART" gorm:"column:query_chart"`
 	QUERY_HISTORY	  string		`json:"QUERY_HISTORY" gorm:"column:query_history"`
 	CITY			  string		`json:"CITY" gorm:"column:city"`
 }
@@ -327,3 +328,13 @@ func PostComponents(com Components)(err error){
 	}
 	return nil 
 }
+func PostQueryCharts(q Query_charts)(err error){
+	if err = DBManager.Create(&q).Error; err != nil{
+		return err
+	}
+	return nil 
+}
+/*func CreateTable(){
+
+
+}*/
