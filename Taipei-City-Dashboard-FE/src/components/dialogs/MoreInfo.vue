@@ -17,6 +17,7 @@ const dialogStore = useDialogStore();
 const contentStore = useContentStore();
 const authStore = useAuthStore();
 
+
 function getLinkTag(link, index) {
 	if (link.includes("data.taipei")) {
 		return `資料集 - ${index + 1} (data.taipei)`;
@@ -75,9 +76,18 @@ watch(
   () => dialogStore.dialogs.moreInfo,
   (val) => {
     console.log('moreInfo dialog changed:', val);
-    if (val) getMessageFromDB();
+    if (val) {
+		showComments.value = false;
+		getMessageFromDB();
+	}
   }
 );
+
+const showComments = ref(false)
+
+function toogleSection() {
+	showComments.value = !showComments.value
+}
 
 </script>
 
@@ -199,102 +209,106 @@ watch(
 					<button @click="dialogStore.showDialog('embedComponent')">
 						<span>code</span>內嵌
 					</button>
+					<button @click="toogleSection">留言</button>
 				</div>
 				<DownloadData />
 				<EmbedComponent />
 			</div>
+			<transition name="fade">
+				<section v-if="showComments" class="section" style="width: 100%;">
+					<!-- ➕ 新增右側評論欄 -->
+					<div
+					class="moreinfo-comments"
+					style="
+						width: 100%;
+						display: flex;
+						flex-direction: column;
+						padding: 0 16px 16px;
+						margin-bottom: 12px;
+						height: 100%;
+						position: relative;
+					"
+					>
+					<div
+						@click="getMessageFromDB"
+						class="scroll-box"
+						style="
+						position: absolute;
+						width: 90%;
+						height: 70%;
+						bottom: 25%;
+						right: 4%;
+						overflow-y: auto;
+						padding: 6px;
+						border-radius: 8px;
+						background-color: #2f2f2f;
+						color: #f0f0f0;
+						box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+						"
+					>
+						<p
+						v-for="mes in MESSAGE"
+						:key="mes.id"
+						style="
+							font-size: 18px;
+							margin-bottom: 12px;
+							line-height: 1.5;
+						"
+						>
+						<strong style="color: #ffd166">{{ mes.name }}</strong> :
+						{{ mes.comments }}
+						<span style="font-size: 12px; color: #ccc; margin-left: 6px">
+							({{ mes.created_at.split('T')[0] }})
+						</span>
+						</p>
+					</div>
 
-			<!-- ➕ 新增右側評論欄 -->
-			<div
-			class="moreinfo-comments"
-			style="
-				width: 100%;
-				display: flex;
-				flex-direction: column;
-				padding: 0 16px 16px;
-				margin-bottom: 12px;
-				height: 100%;
-				position: relative;
-			"
-			>
-			<div
-				@click="getMessageFromDB"
-				class="scroll-box"
-				style="
-				position: absolute;
-				width: 90%;
-				height: 70%;
-				bottom: 25%;
-				right: 4%;
-				overflow-y: auto;
-				padding: 6px;
-				border-radius: 8px;
-				background-color: #2f2f2f;
-				color: #f0f0f0;
-				box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-				"
-			>
-				<p
-				v-for="mes in MESSAGE"
-				:key="mes.id"
-				style="
-					font-size: 18px;
-					margin-bottom: 12px;
-					line-height: 1.5;
-				"
-				>
-				<strong style="color: #ffd166">{{ mes.name }}</strong> :
-				{{ mes.comments }}
-				<span style="font-size: 12px; color: #ccc; margin-left: 6px">
-					({{ mes.created_at.split('T')[0] }})
-				</span>
-				</p>
-			</div>
+					<!-- 留言區 -->
+					<div style="margin-top: auto; padding-top: 16px">
+						<h4 style="margin-bottom: 8px">留言區</h4>
+						<textarea
+						v-model="commentText"
+						placeholder="請輸入文字..."
+						style="
+							width: 100%;
+							box-sizing: border-box;
+							max-height: 120px;
+							padding: 10px 14px;
+							border: 1px solid #ccc;
+							border-radius: 6px;
+							overflow-y: auto;
+							resize: none;
+							background-color: #fafafa;
+							color: #333;
+							font-size: 14px;
+							transition: border 0.3s;
+						"
+						></textarea>
 
-			<!-- 留言區 -->
-			<div style="margin-top: auto; padding-top: 16px">
-				<h4 style="margin-bottom: 8px">留言區</h4>
-				<textarea
-				v-model="commentText"
-				placeholder="請輸入文字..."
-				style="
-					width: 100%;
-					box-sizing: border-box;
-					max-height: 120px;
-					padding: 10px 14px;
-					border: 1px solid #ccc;
-					border-radius: 6px;
-					overflow-y: auto;
-					resize: none;
-					background-color: #fafafa;
-					color: #333;
-					font-size: 14px;
-					transition: border 0.3s;
-				"
-				></textarea>
-
-				<button
-				@click="submitCommentToDB"
-				style="
-					position: absolute;
-					bottom: 16px;
-					right: 8px;
-					padding: 8px 10px;
-					border: none;
-					border-radius: 50%;
-					cursor: pointer;
-					background-color: #ffd166;
-					color: #333;
-					box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-					transition: background-color 0.3s;
-				"
-				onmouseover="this.style.backgroundColor='#ffb347'"
-				onmouseout="this.style.backgroundColor='#ffd166'"
-				>
-				<span class="material-icons" style="font-size: 20px">send</span>
-				</button>
-			</div>
-			</div>
+						<button
+						@click="submitCommentToDB"
+						style="
+							position: absolute;
+							bottom: 16px;
+							right: 32px;
+							padding: 8px 10px;
+							border: none;
+							border-radius: 50%;
+							cursor: pointer;
+							background-color: #ffd166;
+							color: #333;
+							box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+							transition: background-color 0.3s;
+						"
+						onmouseover="this.style.backgroundColor='#ffb347'"
+						onmouseout="this.style.backgroundColor='#ffd166'"
+						>
+						<span class="material-icons" style="font-size: 20px">send</span>
+						</button>
+					</div>
+					</div>
+				</section>
+			</transition>
 		</div>
 	</DialogContainer>
 </template>
