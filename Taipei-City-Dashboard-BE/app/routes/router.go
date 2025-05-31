@@ -56,6 +56,11 @@ func configureUserRoutes() {
 	userRoutes.Use(middleware.LimitAPIRequests(global.UserLimitAPIRequestsTimes, global.LimitRequestsDuration))
 	userRoutes.Use(middleware.LimitTotalRequests(global.UserLimitTotalRequestsTimes, global.TokenExpirationDuration))
 	userRoutes.GET("/comments", controllers.GetCommentsByID)
+	userRoutes.POST("/comments", controllers.PostComments)
+	userRoutes.POST("/component_charts",controllers.PostComponentChart)
+	userRoutes.POST("/components",controllers.PostComponents)
+	userRoutes.POST("/query_charts",controllers.PostQueryCharts)
+	//userRoutes.get("/CREATE",models.CreateTable)
 	userRoutes.Use(middleware.IsLoggedIn())
 	{
 		userRoutes.GET("/me", controllers.GetUserInfo)
@@ -63,8 +68,6 @@ func configureUserRoutes() {
 		userRoutes.POST("/:id/viewpoint", controllers.CreateViewPoint)
 		userRoutes.GET("/:id/viewpoint", controllers.GetViewPointByUserID)
 		userRoutes.DELETE("/:id/viewpoint/:viewpointid", controllers.DeleteViewPoint)
-		userRoutes.POST("/comments", controllers.PostComments)
-		userRoutes.GET("/getData", controllers.GetCommentsByID)
 	}
 	userRoutes.Use(middleware.IsSysAdm())
 	{

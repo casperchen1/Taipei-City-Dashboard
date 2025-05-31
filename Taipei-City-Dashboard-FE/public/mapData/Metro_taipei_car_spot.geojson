@@ -1,0 +1,2489 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3983754,25.139529 ]
+    },
+    "properties": {
+    "分區":"八里區",
+    "高中":"新北市立八里國民中學",
+    "汽車":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4004731,25.1492308 ]
+    },
+    "properties": {
+    "分區":"八里區",
+    "高中":"新北市八里區八里國民小學",
+    "汽車":50
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3877831,25.1254388 ]
+    },
+    "properties": {
+    "分區":"八里區",
+    "高中":"新北市八里區長坑國民小學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429558,25.146822 ]
+    },
+    "properties": {
+    "分區":"八里區",
+    "高中":"新北市八里區米倉國民小學",
+    "汽車":38
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4989597,25.2575969 ]
+    },
+    "properties": {
+    "分區":"三芝區",
+    "高中":"新北市三芝區三芝國民小學",
+    "汽車":26
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.527334,25.2586776 ]
+    },
+    "properties": {
+    "分區":"三芝區",
+    "高中":"新北市三芝區橫山國民小學",
+    "汽車":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4987711,25.2045018 ]
+    },
+    "properties": {
+    "分區":"三芝區",
+    "高中":"新北市三芝區興華國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4644233,25.0431085 ]
+    },
+    "properties": {
+    "分區":"三重區",
+    "高中":"新北市金陵女子高級中學",
+    "汽車":110
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4882869,25.0866714 ]
+    },
+    "properties": {
+    "分區":"三重區",
+    "高中":"新北市立新北高級中學",
+    "汽車":106
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4973429,25.0704582 ]
+    },
+    "properties": {
+    "分區":"三重區",
+    "高中":"新北市立光榮國民中學",
+    "汽車":30
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4864478,25.0634835 ]
+    },
+    "properties": {
+    "分區":"三重區",
+    "高中":"新北市立明志國民中學",
+    "汽車":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4863581,25.0871608 ]
+    },
+    "properties": {
+    "分區":"三重區",
+    "高中":"新北市立碧華國民中學",
+    "汽車":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4842488,25.0756561 ]
+    },
+    "properties": {
+    "分區":"三重區",
+    "高中":"新北市立三和國民中學",
+    "汽車":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4774424,25.065847 ]
+    },
+    "properties": {
+    "分區":"三重區",
+    "高中":"新北市立二重國民中學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4141816,25.126684 ]
+    },
+    "properties": {
+    "分區":"三重區",
+    "高中":"新北市三重區三重國民小學",
+    "汽車":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4774732,25.0769749 ]
+    },
+    "properties": {
+    "分區":"三重區",
+    "高中":"新北市三重區永福國民小學",
+    "汽車":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4861368,25.0717273 ]
+    },
+    "properties": {
+    "分區":"三重區",
+    "高中":"新北市三重區厚德國民小學",
+    "汽車":50
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4939807,25.0563497 ]
+    },
+    "properties": {
+    "分區":"三重區",
+    "高中":"新北市三重區三光國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4962241,25.0590388 ]
+    },
+    "properties": {
+    "分區":"三重區",
+    "高中":"新北市三重區光興國民小學",
+    "汽車":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4869428,25.0652239 ]
+    },
+    "properties": {
+    "分區":"三重區",
+    "高中":"新北市三重區修德國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4756206,25.0656346 ]
+    },
+    "properties": {
+    "分區":"三重區",
+    "高中":"新北市三重區二重國民小學",
+    "汽車":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4723327,25.0502862 ]
+    },
+    "properties": {
+    "分區":"三重區",
+    "高中":"新北市三重區興穀國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4818715,25.0671382 ]
+    },
+    "properties": {
+    "分區":"三重區",
+    "高中":"新北市三重區重陽國民小學",
+    "汽車":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4897787,25.0875776 ]
+    },
+    "properties": {
+    "分區":"三重區",
+    "高中":"新北市三重區五華國民小學",
+    "汽車":25
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4854267,25.0565648 ]
+    },
+    "properties": {
+    "分區":"三重區",
+    "高中":"新北市三重區集美國民小學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4058893,24.9322777 ]
+    },
+    "properties": {
+    "分區":"三峽區",
+    "高中":"新北市私立辭修高級中學",
+    "汽車":100
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3706087,24.9392564 ]
+    },
+    "properties": {
+    "分區":"三峽區",
+    "高中":"新北市三峽區北大國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3731681,24.9485593 ]
+    },
+    "properties": {
+    "分區":"三峽區",
+    "高中":"新北市立北大高級中學",
+    "汽車":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3702402,24.9265987 ]
+    },
+    "properties": {
+    "分區":"三峽區",
+    "高中":"新北市立安溪國民中學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3653124,24.9357007 ]
+    },
+    "properties": {
+    "分區":"三峽區",
+    "高中":"新北市三峽區三峽國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3639031,24.9056488 ]
+    },
+    "properties": {
+    "分區":"三峽區",
+    "高中":"新北市三峽區大埔國民小學",
+    "汽車":23
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4445431,24.9263237 ]
+    },
+    "properties": {
+    "分區":"三峽區",
+    "高中":"新北市三峽區建安國民小學",
+    "汽車":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.402813,24.8725001 ]
+    },
+    "properties": {
+    "分區":"三峽區",
+    "高中":"新北市立插角森林實驗小學",
+    "汽車":25
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4343498,24.8536247 ]
+    },
+    "properties": {
+    "分區":"三峽區",
+    "高中":"新北市三峽區有木國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3699081,24.9310875 ]
+    },
+    "properties": {
+    "分區":"三峽區",
+    "高中":"新北市三峽區安溪國民小學",
+    "汽車":25
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3759499,24.9299306 ]
+    },
+    "properties": {
+    "分區":"三峽區",
+    "高中":"新北市三峽區介壽國民小學",
+    "汽車":30
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3645149,24.9278099 ]
+    },
+    "properties": {
+    "分區":"三峽區",
+    "高中":"新北市三峽區中園國民小學",
+    "汽車":40
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.437368,24.9826965 ]
+    },
+    "properties": {
+    "分區":"土城區",
+    "高中":"新北市裕德高級中等學校",
+    "汽車":64
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4475453,24.9826558 ]
+    },
+    "properties": {
+    "分區":"土城區",
+    "高中":"新北市立新北高級工業職業學校",
+    "汽車":100
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4616631,24.9822055 ]
+    },
+    "properties": {
+    "分區":"土城區",
+    "高中":"新北市立清水高級中學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4268515,24.9628023 ]
+    },
+    "properties": {
+    "分區":"土城區",
+    "高中":"新北市立土城國民中學",
+    "汽車":70
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4541829,24.9835246 ]
+    },
+    "properties": {
+    "分區":"土城區",
+    "高中":"新北市立中正國民中學",
+    "汽車":90
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4395406,24.9720757 ]
+    },
+    "properties": {
+    "分區":"土城區",
+    "高中":"新北市土城區土城國民小學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4586262,24.9848318 ]
+    },
+    "properties": {
+    "分區":"土城區",
+    "高中":"新北市土城區清水國民小學",
+    "汽車":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4117437,24.9560471 ]
+    },
+    "properties": {
+    "分區":"土城區",
+    "高中":"新北市土城區頂埔國民小學",
+    "汽車":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4523011,24.9868991 ]
+    },
+    "properties": {
+    "分區":"土城區",
+    "高中":"新北市土城區廣福國民小學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4453793,24.9852192 ]
+    },
+    "properties": {
+    "分區":"土城區",
+    "高中":"新北市土城區樂利國民小學",
+    "汽車":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4624016,24.9889434 ]
+    },
+    "properties": {
+    "分區":"土城區",
+    "高中":"新北市土城區安和國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5033929,24.9802758 ]
+    },
+    "properties": {
+    "分區":"中和區",
+    "高中":"新北市私立竹林高級中學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4754763,24.9943711 ]
+    },
+    "properties": {
+    "分區":"中和區",
+    "高中":"新北市立中和高級中學",
+    "汽車":70
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4885091,24.9925488 ]
+    },
+    "properties": {
+    "分區":"中和區",
+    "高中":"新北市立錦和高級中學",
+    "汽車":40
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5062169,24.9855482 ]
+    },
+    "properties": {
+    "分區":"中和區",
+    "高中":"新北市立中和國民中學",
+    "汽車":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4761733,25.000601 ]
+    },
+    "properties": {
+    "分區":"中和區",
+    "高中":"新北市立積穗國民中學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5030953,25.002019 ]
+    },
+    "properties": {
+    "分區":"中和區",
+    "高中":"新北市立漳和國民中學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4705049,24.9980445 ]
+    },
+    "properties": {
+    "分區":"中和區",
+    "高中":"新北市立自強國民中學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4991486,24.9999028 ]
+    },
+    "properties": {
+    "分區":"中和區",
+    "高中":"新北市中和區中和國民小學",
+    "汽車":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5069759,24.9869911 ]
+    },
+    "properties": {
+    "分區":"中和區",
+    "高中":"新北市中和區興南國民小學",
+    "汽車":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5185699,24.9951625 ]
+    },
+    "properties": {
+    "分區":"中和區",
+    "高中":"新北市中和區秀山國民小學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4867602,24.9898791 ]
+    },
+    "properties": {
+    "分區":"中和區",
+    "高中":"新北市中和區錦和國民小學",
+    "汽車":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5131926,24.9895551 ]
+    },
+    "properties": {
+    "分區":"中和區",
+    "高中":"新北市中和區景新國民小學",
+    "汽車":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4646671,25.0706188 ]
+    },
+    "properties": {
+    "分區":"五股區",
+    "高中":"新北市五股區更寮國民小學",
+    "汽車":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.730713,25.023456 ]
+    },
+    "properties": {
+    "分區":"平溪區",
+    "高中":"新北市立平溪國民中學",
+    "汽車":30
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.7348175,25.0273512 ]
+    },
+    "properties": {
+    "分區":"平溪區",
+    "高中":"新北市平溪區平溪國民小學",
+    "汽車":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.7750751,25.0434938 ]
+    },
+    "properties": {
+    "分區":"平溪區",
+    "高中":"新北市平溪區十分國民小學",
+    "汽車":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5204351,25.0059015 ]
+    },
+    "properties": {
+    "分區":"永和區",
+    "高中":"新北市立永和國民中學",
+    "汽車":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5183685,25.0040654 ]
+    },
+    "properties": {
+    "分區":"永和區",
+    "高中":"新北市立福和國民中學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5143653,25.0034029 ]
+    },
+    "properties": {
+    "分區":"永和區",
+    "高中":"新北市永和區永和國民小學",
+    "汽車":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5187978,24.9989447 ]
+    },
+    "properties": {
+    "分區":"永和區",
+    "高中":"新北市永和區秀朗國民小學",
+    "汽車":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5089103,25.0153 ]
+    },
+    "properties": {
+    "分區":"永和區",
+    "高中":"新北市永和區頂溪國民小學",
+    "汽車":11
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5024971,25.0076709 ]
+    },
+    "properties": {
+    "分區":"永和區",
+    "高中":"新北市永和區永平國民小學",
+    "汽車":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5896416,25.2691334 ]
+    },
+    "properties": {
+    "分區":"石門區",
+    "高中":"新北市石門區乾華國民小學",
+    "汽車":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6394964,25.0127702 ]
+    },
+    "properties": {
+    "分區":"石碇區",
+    "高中":"新北市立石碇高級中學",
+    "汽車":42
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6564393,24.9906145 ]
+    },
+    "properties": {
+    "分區":"石碇區",
+    "高中":"新北市石碇區石碇國民小學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6389922,25.011667 ]
+    },
+    "properties": {
+    "分區":"石碇區",
+    "高中":"新北市石碇區和平國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.685706,25.0078118 ]
+    },
+    "properties": {
+    "分區":"石碇區",
+    "高中":"新北市石碇區永定國民小學",
+    "汽車":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6557622,25.0669614 ]
+    },
+    "properties": {
+    "分區":"汐止區",
+    "高中":"新北市立汐止國民中學",
+    "汽車":40
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6782761,25.0717778 ]
+    },
+    "properties": {
+    "分區":"汐止區",
+    "高中":"新北市汐止區保長國民小學",
+    "汽車":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6426736,25.0888515 ]
+    },
+    "properties": {
+    "分區":"汐止區",
+    "高中":"新北市汐止區北港國民小學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.629773,25.0633202 ]
+    },
+    "properties": {
+    "分區":"汐止區",
+    "高中":"新北市汐止區北峰國民小學",
+    "汽車":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6591269,25.0628933 ]
+    },
+    "properties": {
+    "分區":"汐止區",
+    "高中":"新北市汐止區秀峰國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6251595,25.0685802 ]
+    },
+    "properties": {
+    "分區":"汐止區",
+    "高中":"新北市汐止區金龍國民小學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.7100645,24.9376223 ]
+    },
+    "properties": {
+    "分區":"坪林區",
+    "高中":"新北市立坪林實驗國民中學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4565973,25.0118434 ]
+    },
+    "properties": {
+    "分區":"板橋區",
+    "高中":"新北市立板橋高級中學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4804503,25.0164865 ]
+    },
+    "properties": {
+    "分區":"板橋區",
+    "高中":"新北市立光復高級中學",
+    "汽車":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4490449,25.0370986 ]
+    },
+    "properties": {
+    "分區":"板橋區",
+    "高中":"新北市立重慶國民中學",
+    "汽車":25
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4658843,25.028868 ]
+    },
+    "properties": {
+    "分區":"板橋區",
+    "高中":"新北市立江翠國民中學",
+    "汽車":40
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4649675,25.0183993 ]
+    },
+    "properties": {
+    "分區":"板橋區",
+    "高中":"新北市立中山國民中學",
+    "汽車":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4571358,25.0248241 ]
+    },
+    "properties": {
+    "分區":"板橋區",
+    "高中":"新北市立新埔國民中學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4292098,24.9978458 ]
+    },
+    "properties": {
+    "分區":"板橋區",
+    "高中":"新北市立溪崑國民中學",
+    "汽車":50
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4461473,25.011152 ]
+    },
+    "properties": {
+    "分區":"板橋區",
+    "高中":"新北市立大觀國民中學",
+    "汽車":30
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4590381,25.0041044 ]
+    },
+    "properties": {
+    "分區":"板橋區",
+    "高中":"新北市立忠孝國民中學",
+    "汽車":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5127072,25.0078408 ]
+    },
+    "properties": {
+    "分區":"板橋區",
+    "高中":"新北市板橋區板橋國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4598011,25.0258808 ]
+    },
+    "properties": {
+    "分區":"板橋區",
+    "高中":"新北市板橋區新埔國民小學",
+    "汽車":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.471527,25.0181519 ]
+    },
+    "properties": {
+    "分區":"板橋區",
+    "高中":"新北市板橋區埔墘國民小學",
+    "汽車":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4709613,25.0324859 ]
+    },
+    "properties": {
+    "分區":"板橋區",
+    "高中":"新北市板橋區江翠國民小學",
+    "汽車":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4748439,25.0291347 ]
+    },
+    "properties": {
+    "分區":"板橋區",
+    "高中":"新北市板橋區文聖國民小學",
+    "汽車":30
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4275404,24.9898749 ]
+    },
+    "properties": {
+    "分區":"板橋區",
+    "高中":"新北市板橋區沙崙國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4561759,25.0233233 ]
+    },
+    "properties": {
+    "分區":"板橋區",
+    "高中":"新北市板橋區文德國民小學",
+    "汽車":30
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4457115,25.0019969 ]
+    },
+    "properties": {
+    "分區":"板橋區",
+    "高中":"新北市板橋區中山國民小學",
+    "汽車":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4605467,24.9945446 ]
+    },
+    "properties": {
+    "分區":"板橋區",
+    "高中":"新北市板橋區重慶國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3932181,25.0795688 ]
+    },
+    "properties": {
+    "分區":"林口區",
+    "高中":"新北市私立醒吾高級中學",
+    "汽車":60
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3784869,25.0735524 ]
+    },
+    "properties": {
+    "分區":"林口區",
+    "高中":"新北市立林口高級中學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3789543,25.0755526 ]
+    },
+    "properties": {
+    "分區":"林口區",
+    "高中":"新北市林口區東湖國民小學",
+    "汽車":18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3634277,25.0783394 ]
+    },
+    "properties": {
+    "分區":"林口區",
+    "高中":"新北市立新北特殊教育學校",
+    "汽車":100
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3675918,25.068416 ]
+    },
+    "properties": {
+    "分區":"林口區",
+    "高中":"新北市立崇林國民中學",
+    "汽車":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.381653,25.0803833 ]
+    },
+    "properties": {
+    "分區":"林口區",
+    "高中":"新北市立佳林國民中學",
+    "汽車":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3878658,25.080276 ]
+    },
+    "properties": {
+    "分區":"林口區",
+    "高中":"新北市林口區林口國民小學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3364956,25.1084538 ]
+    },
+    "properties": {
+    "分區":"林口區",
+    "高中":"新北市林口區嘉寶國民小學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3465105,25.1282863 ]
+    },
+    "properties": {
+    "分區":"林口區",
+    "高中":"新北市林口區瑞平國民小學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3109048,25.111319 ]
+    },
+    "properties": {
+    "分區":"林口區",
+    "高中":"新北市林口區興福國民小學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3703871,25.0820978 ]
+    },
+    "properties": {
+    "分區":"林口區",
+    "高中":"新北市林口區頭湖國民小學",
+    "汽車":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6344331,25.2246808 ]
+    },
+    "properties": {
+    "分區":"金山區",
+    "高中":"新北市立金山高級中學",
+    "汽車":45
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6280271,25.2397278 ]
+    },
+    "properties": {
+    "分區":"金山區",
+    "高中":"新北市金山區中角國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6328252,25.2211382 ]
+    },
+    "properties": {
+    "分區":"金山區",
+    "高中":"新北市金山區金美國民小學",
+    "汽車":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4271933,25.0578049 ]
+    },
+    "properties": {
+    "分區":"泰山區",
+    "高中":"新北市立泰山高級中學",
+    "汽車":40
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4286931,25.0517472 ]
+    },
+    "properties": {
+    "分區":"泰山區",
+    "高中":"新北市立義學國民中學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4289813,25.0614896 ]
+    },
+    "properties": {
+    "分區":"泰山區",
+    "高中":"新北市泰山區泰山國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4243652,25.0450806 ]
+    },
+    "properties": {
+    "分區":"泰山區",
+    "高中":"新北市泰山區明志國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4250972,25.0543074 ]
+    },
+    "properties": {
+    "分區":"泰山區",
+    "高中":"新北市泰山區同榮國民小學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4283177,25.0522417 ]
+    },
+    "properties": {
+    "分區":"泰山區",
+    "高中":"新北市泰山區義學國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.9462049,25.0174246 ]
+    },
+    "properties": {
+    "分區":"貢寮區",
+    "高中":"新北市貢寮區福隆國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.9219591,25.0549288 ]
+    },
+    "properties": {
+    "分區":"貢寮區",
+    "高中":"新北市貢寮區澳底國民小學",
+    "汽車":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.9169335,25.1124091 ]
+    },
+    "properties": {
+    "分區":"貢寮區",
+    "高中":"新北市貢寮區和美國民小學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.9861461,25.0168015 ]
+    },
+    "properties": {
+    "分區":"貢寮區",
+    "高中":"新北市貢寮區福連國民小學",
+    "汽車":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4517259,25.1873588 ]
+    },
+    "properties": {
+    "分區":"淡水區",
+    "高中":"新北市立淡水高級商工職業學校",
+    "汽車":250
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.459138,25.1460217 ]
+    },
+    "properties": {
+    "分區":"淡水區",
+    "高中":"新北市立竹圍高級中學",
+    "汽車":72
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4449901,25.1790558 ]
+    },
+    "properties": {
+    "分區":"淡水區",
+    "高中":"新北市立正德國民中學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4425011,25.1968716 ]
+    },
+    "properties": {
+    "分區":"淡水區",
+    "高中":"新北市淡水區育英國民小學",
+    "汽車":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4220261,25.1815108 ]
+    },
+    "properties": {
+    "分區":"淡水區",
+    "高中":"新北市淡水區天生國民小學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4739767,25.1858427 ]
+    },
+    "properties": {
+    "分區":"淡水區",
+    "高中":"新北市淡水區水源國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.44864,25.2175793 ]
+    },
+    "properties": {
+    "分區":"淡水區",
+    "高中":"新北市淡水區興仁國民小學",
+    "汽車":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4773578,25.2004193 ]
+    },
+    "properties": {
+    "分區":"淡水區",
+    "高中":"新北市立忠山實驗小學",
+    "汽車":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4819945,25.2241747 ]
+    },
+    "properties": {
+    "分區":"淡水區",
+    "高中":"新北市淡水區中泰國民小學",
+    "汽車":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4812997,25.1580246 ]
+    },
+    "properties": {
+    "分區":"淡水區",
+    "高中":"新北市淡水區坪頂國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4576032,25.1471106 ]
+    },
+    "properties": {
+    "分區":"淡水區",
+    "高中":"新北市淡水區竹圍國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4464512,25.1719142 ]
+    },
+    "properties": {
+    "分區":"淡水區",
+    "高中":"新北市淡水區鄧公國民小學",
+    "汽車":50
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.437493,25.1797149 ]
+    },
+    "properties": {
+    "分區":"淡水區",
+    "高中":"新北市淡水區新興國民小學",
+    "汽車":38
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4418035,25.1864261 ]
+    },
+    "properties": {
+    "分區":"淡水區",
+    "高中":"新北市淡水區新市國民小學",
+    "汽車":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4952192,24.9107408 ]
+    },
+    "properties": {
+    "分區":"新店區",
+    "高中":"新北市私立康橋高級中學",
+    "汽車":30
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5426151,24.9807449 ]
+    },
+    "properties": {
+    "分區":"新店區",
+    "高中":"新北市私立南強工商",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5363601,24.9567098 ]
+    },
+    "properties": {
+    "分區":"新店區",
+    "高中":"新北市立文山國民中學",
+    "汽車":30
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5415853,24.966727 ]
+    },
+    "properties": {
+    "分區":"新店區",
+    "高中":"新北市立五峰國民中學",
+    "汽車":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4974055,24.9536247 ]
+    },
+    "properties": {
+    "分區":"新店區",
+    "高中":"新北市立達觀國民中小學",
+    "汽車":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5378015,24.9530186 ]
+    },
+    "properties": {
+    "分區":"新店區",
+    "高中":"新北市新店區新店國民小學",
+    "汽車":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5283835,24.9377984 ]
+    },
+    "properties": {
+    "分區":"新店區",
+    "高中":"新北市新店區直潭國民小學",
+    "汽車":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5496043,24.9530797 ]
+    },
+    "properties": {
+    "分區":"新店區",
+    "高中":"新北市新店區青潭國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5728316,24.9513651 ]
+    },
+    "properties": {
+    "分區":"新店區",
+    "高中":"新北市新店區雙峰國民小學",
+    "汽車":22
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4837937,24.9522796 ]
+    },
+    "properties": {
+    "分區":"新店區",
+    "高中":"新北市新店區雙城國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5153411,24.9846025 ]
+    },
+    "properties": {
+    "分區":"新店區",
+    "高中":"新北市新店區新和國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5420708,24.9737339 ]
+    },
+    "properties": {
+    "分區":"新店區",
+    "高中":"新北市新店區北新國民小學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4139577,25.0210097 ]
+    },
+    "properties": {
+    "分區":"新莊區",
+    "高中":"新北市立丹鳳高級中學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4494621,25.0354367 ]
+    },
+    "properties": {
+    "分區":"新莊區",
+    "高中":"新北市立新莊國民中學",
+    "汽車":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4409037,25.0422966 ]
+    },
+    "properties": {
+    "分區":"新莊區",
+    "高中":"新北市立新泰國民中學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4564859,25.0547026 ]
+    },
+    "properties": {
+    "分區":"新莊區",
+    "高中":"新北市立頭前國民中學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4409039,25.0535502 ]
+    },
+    "properties": {
+    "分區":"新莊區",
+    "高中":"新北市立中平國民中學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4535473,25.0369275 ]
+    },
+    "properties": {
+    "分區":"新莊區",
+    "高中":"新北市新莊區新莊國民小學",
+    "汽車":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4445958,25.0451072 ]
+    },
+    "properties": {
+    "分區":"新莊區",
+    "高中":"新北市新莊區中港國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4542204,25.0461975 ]
+    },
+    "properties": {
+    "分區":"新莊區",
+    "高中":"新北市新莊區思賢國民小學",
+    "汽車":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4635562,25.052831 ]
+    },
+    "properties": {
+    "分區":"新莊區",
+    "高中":"新北市新莊區頭前國民小學",
+    "汽車":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4225737,25.0178287 ]
+    },
+    "properties": {
+    "分區":"新莊區",
+    "高中":"新北市新莊區光華國民小學",
+    "汽車":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4534125,25.0510032 ]
+    },
+    "properties": {
+    "分區":"新莊區",
+    "高中":"新北市新莊區昌隆國民小學",
+    "汽車":30
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4449401,25.0517789 ]
+    },
+    "properties": {
+    "分區":"新莊區",
+    "高中":"新北市新莊區榮富國民小學",
+    "汽車":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4155426,25.0218536 ]
+    },
+    "properties": {
+    "分區":"新莊區",
+    "高中":"新北市新莊區裕民國民小學",
+    "汽車":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4411814,25.0379158 ]
+    },
+    "properties": {
+    "分區":"新莊區",
+    "高中":"新北市新莊區新泰國民小學",
+    "汽車":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4461127,25.0564262 ]
+    },
+    "properties": {
+    "分區":"新莊區",
+    "高中":"新北市新莊區中信國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4530952,25.0559022 ]
+    },
+    "properties": {
+    "分區":"新莊區",
+    "高中":"新北市新莊區昌平國民小學",
+    "汽車":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8015605,25.110918 ]
+    },
+    "properties": {
+    "分區":"瑞芳區",
+    "高中":"新北市立瑞芳高級工業職業學校",
+    "汽車":46
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8139623,25.107756 ]
+    },
+    "properties": {
+    "分區":"瑞芳區",
+    "高中":"新北市立瑞芳國民中學",
+    "汽車":28
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.7993895,25.113128 ]
+    },
+    "properties": {
+    "分區":"瑞芳區",
+    "高中":"新北市瑞芳區義方國民小學",
+    "汽車":30
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8201179,25.1091108 ]
+    },
+    "properties": {
+    "分區":"瑞芳區",
+    "高中":"新北市瑞芳區瑞柑國民小學",
+    "汽車":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8173951,25.1202151 ]
+    },
+    "properties": {
+    "分區":"瑞芳區",
+    "高中":"新北市瑞芳區瑞濱國民小學",
+    "汽車":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8544739,25.1110112 ]
+    },
+    "properties": {
+    "分區":"瑞芳區",
+    "高中":"新北市瑞芳區瓜山國民小學",
+    "汽車":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8574106,25.1223284 ]
+    },
+    "properties": {
+    "分區":"瑞芳區",
+    "高中":"新北市瑞芳區濂洞國民小學",
+    "汽車":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8309169,25.0957295 ]
+    },
+    "properties": {
+    "分區":"瑞芳區",
+    "高中":"新北市立猴硐-蒙特梭利實驗小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.7750312,25.1028591 ]
+    },
+    "properties": {
+    "分區":"瑞芳區",
+    "高中":"新北市瑞芳區瑞亭國民小學",
+    "汽車":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6826928,25.1777285 ]
+    },
+    "properties": {
+    "分區":"萬里區",
+    "高中":"新北市私立中華商海",
+    "汽車":35
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6866531,25.1761551 ]
+    },
+    "properties": {
+    "分區":"萬里區",
+    "高中":"新北市萬里區萬里國民小學",
+    "汽車":32
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6867903,25.2054484 ]
+    },
+    "properties": {
+    "分區":"萬里區",
+    "高中":"新北市萬里區野柳國民小學",
+    "汽車":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6359717,25.1672857 ]
+    },
+    "properties": {
+    "分區":"萬里區",
+    "高中":"新北市萬里區大坪國民小學",
+    "汽車":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6466086,25.1603098 ]
+    },
+    "properties": {
+    "分區":"萬里區",
+    "高中":"新北市萬里區崁腳國民小學",
+    "汽車":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4196984,24.983012 ]
+    },
+    "properties": {
+    "分區":"樹林區",
+    "高中":"新北市立樹林高級中學",
+    "汽車":30
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3816124,24.9547114 ]
+    },
+    "properties": {
+    "分區":"樹林區",
+    "高中":"新北市立柑園國民中學",
+    "汽車":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4126165,24.9853199 ]
+    },
+    "properties": {
+    "分區":"樹林區",
+    "高中":"新北市立育林國民中學",
+    "汽車":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4120975,25.0063753 ]
+    },
+    "properties": {
+    "分區":"樹林區",
+    "高中":"新北市立三多國民中學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4155047,24.9898211 ]
+    },
+    "properties": {
+    "分區":"樹林區",
+    "高中":"新北市樹林區樹林國民小學",
+    "汽車":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4228677,24.9980046 ]
+    },
+    "properties": {
+    "分區":"樹林區",
+    "高中":"新北市樹林區文林國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4121257,25.0019597 ]
+    },
+    "properties": {
+    "分區":"樹林區",
+    "高中":"新北市樹林區武林國民小學",
+    "汽車":18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3991718,24.9754962 ]
+    },
+    "properties": {
+    "分區":"樹林區",
+    "高中":"新北市樹林區山佳國民小學",
+    "汽車":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3874721,24.9557596 ]
+    },
+    "properties": {
+    "分區":"樹林區",
+    "高中":"新北市樹林區柑園國民小學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.40344,25.0164203 ]
+    },
+    "properties": {
+    "分區":"樹林區",
+    "高中":"新北市樹林區三多國民小學",
+    "汽車":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4213862,24.9814684 ]
+    },
+    "properties": {
+    "分區":"樹林區",
+    "高中":"新北市樹林區彭福國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8295418,25.0293158 ]
+    },
+    "properties": {
+    "分區":"雙溪區",
+    "高中":"新北市雙溪區上林國民小學",
+    "汽車":11
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8491279,25.0621128 ]
+    },
+    "properties": {
+    "分區":"雙溪區",
+    "高中":"新北市雙溪區牡丹國民小學",
+    "汽車":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.471429,25.0864119 ]
+    },
+    "properties": {
+    "分區":"蘆洲區",
+    "高中":"新北市立三民高級中學",
+    "汽車":50
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4589473,25.0908884 ]
+    },
+    "properties": {
+    "分區":"蘆洲區",
+    "高中":"新北市立鷺江國民中學",
+    "汽車":30
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4740776,25.0851008 ]
+    },
+    "properties": {
+    "分區":"蘆洲區",
+    "高中":"新北市蘆洲區鷺江國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4548031,25.0856772 ]
+    },
+    "properties": {
+    "分區":"蘆洲區",
+    "高中":"新北市蘆洲區成功國民小學",
+    "汽車":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4679639,25.0911535 ]
+    },
+    "properties": {
+    "分區":"蘆洲區",
+    "高中":"新北市蘆洲區仁愛國民小學",
+    "汽車":19
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.460962,25.0898187 ]
+    },
+    "properties": {
+    "分區":"蘆洲區",
+    "高中":"新北市蘆洲區忠義國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3324432,24.9393287 ]
+    },
+    "properties": {
+    "分區":"鶯歌區",
+    "高中":"新北市立鶯歌高級工商職業學校",
+    "汽車":23
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3422785,24.9504632 ]
+    },
+    "properties": {
+    "分區":"鶯歌區",
+    "高中":"新北市立鶯歌國民中學",
+    "汽車":48
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3434659,24.9513188 ]
+    },
+    "properties": {
+    "分區":"鶯歌區",
+    "高中":"新北市鶯歌區鶯歌國民小學",
+    "汽車":30
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3351818,24.941082 ]
+    },
+    "properties": {
+    "分區":"鶯歌區",
+    "高中":"新北市鶯歌區二橋國民小學",
+    "汽車":40
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3322511,24.9691768 ]
+    },
+    "properties": {
+    "分區":"鶯歌區",
+    "高中":"新北市鶯歌區鳳鳴國民小學",
+    "汽車":50
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3442278,24.955001 ]
+    },
+    "properties": {
+    "分區":"鶯歌區",
+    "高中":"新北市鶯歌區建國國民小學",
+    "汽車":35
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3301641,24.9590498 ]
+    },
+    "properties": {
+    "分區":"鶯歌區",
+    "高中":"新北市鶯歌區永吉國民小學",
+    "汽車":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.336951,24.9557912 ]
+    },
+    "properties": {
+    "分區":"鶯歌區",
+    "高中":"新北市鶯歌區昌福國民小學",
+    "汽車":30
+    }
+  }
+]
+}
