@@ -7,6 +7,10 @@ import metro from "../assets/map/metro.png";
 import triangle_green from "../assets/map/triangle_green.png";
 import triangle_white from "../assets/map/triangle_white.png";
 import bike_green from "../assets/map/bike_green.png";
+import parking from "../assets/map/parking.png"
+import parking_red from "../assets/map/parking_red.png"
+import parking_orange from "../assets/map/parking_orange.png"
+import parking_green from "../assets/map/parking_green.png"
 import bike_orange from "../assets/map/bike_orange.png";
 import bike_red from "../assets/map/bike_red.png";
 import cross_bold from "../assets/map/cross_bold.png";
@@ -30,6 +34,14 @@ const emits = defineEmits([
 
 function returnIcon(name) {
 	switch (name) {
+	case "parking":
+		return parking;
+	case "parking_red":
+		return parking_red;
+	case "parking_orange":
+		return parking_orange;
+	case "parking_green":
+		return parking_green;
 	case "bus":
 		return bus;
 	case "metro":

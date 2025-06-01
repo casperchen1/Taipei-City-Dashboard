@@ -49,11 +49,10 @@ async function submitCommentToDB() {
 			}
 		);
 
-		alert("送出成功！");
+		dialogStore.showNotification("success", "送出成功", 1500)
 		commentText.value = "";
 		getMessageFromDB()
 	} catch (err) {
-		console.error("送出失敗：", err);
 		alert("發送失敗，請稍後再試");
 	}
 }
@@ -75,7 +74,6 @@ async function getMessageFromDB() {
 watch(
   () => dialogStore.dialogs.moreInfo,
   (val) => {
-    console.log('moreInfo dialog changed:', val);
     if (val) {
 		showComments.value = false;
 		getMessageFromDB();
@@ -250,7 +248,7 @@ function toogleSection() {
 						v-for="mes in MESSAGE"
 						:key="mes.id"
 						style="
-							font-size: 18px;
+							font-size: 14px;
 							margin-bottom: 12px;
 							line-height: 1.5;
 						"
@@ -265,7 +263,7 @@ function toogleSection() {
 
 					<!-- 留言區 -->
 					<div style="margin-top: auto; padding-top: 16px">
-						<h4 style="margin-bottom: 8px">留言區</h4>
+						<h4 style="margin-bottom: 8px">留言板</h4>
 						<textarea
 						v-model="commentText"
 						placeholder="請輸入文字..."

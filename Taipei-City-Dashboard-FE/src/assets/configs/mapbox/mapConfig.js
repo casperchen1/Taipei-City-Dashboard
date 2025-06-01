@@ -445,6 +445,25 @@ export const maplayerCommonLayout = {
 			2,
 		],
 	},
+	"symbol-parking": {
+		"icon-image": [
+			"case",
+			[">=", ["get", "汽車"], 40], "parking_green",
+			[">=", ["get", "汽車"], 20], "parking_orange",
+			"parking_red"
+		],
+		"icon-size": [
+			"interpolate",
+			["linear"],
+			["zoom"],
+			11.99,
+			1,
+			14,
+			1.5,
+			22,
+			2,
+		],
+	},
 	"symbol-bus": {
 		"icon-image": "bus",
 		"icon-size": [

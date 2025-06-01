@@ -1,8 +1,11 @@
+import AnimateCloumnChart from "../../../dashboardComponent/components/AnimateColumnChart.vue";
+
 export const chartTypes = {
 	RainChart: "雨量圖",
 	DonutChart: "圓餅圖",
 	BarChart: "橫向長條圖",
 	ColumnChart: "縱向長條圖",
+	AnimateColumnChart: "動畫縱向長條圖",
 	BarPercentChart: "長條圖(%)",
 	TreemapChart: "矩形圖",
 	DistrictChart: "行政區圖",
@@ -28,6 +31,7 @@ export const chartsPerDataType = {
 		"DonutChart",
 		"BarChart",
 		"ColumnChart",
+		"AnimateColumnChart",
 		"TreemapChart",
 		"DistrictChart",
 		"DistrictChartHI",
@@ -38,6 +42,7 @@ export const chartsPerDataType = {
 	three_d: [
 		"RainChart",
 		"ColumnChart",
+		"AnimateColumnChart",
 		"BarPercentChart",
 		"RadarChart",
 		"DistrictChart",

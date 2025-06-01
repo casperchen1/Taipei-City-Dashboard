@@ -429,9 +429,3 @@ func DeleteComponent(id int, index string, mapConfigIDs pq.Int64Array) (deleteCh
 	return true, true, nil
 }
 
-func RTGetComponentData(url string, time.Time) (response string, error){
-	resp, err := http.get(url)
-	if err != nil {
-		return err
-	}
-}
